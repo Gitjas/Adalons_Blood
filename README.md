@@ -1,4 +1,4 @@
-# Adalons_Blood
+# Adalon's Blood
 
 A short quest extention mod for BGII, BGT, BGII:EE, and EET!
 
