@@ -1,8 +1,6 @@
         			Adalon's Blood 
 			Modyfikacja gry Baldur's Gate II
-                     autorstwa: Gandalf the White; kod autorstwa: jastey
-					
-					wersja 14
+                     autorstwa: Gandalf the white; kod autorstwa: jastey
 
 
 Adalon's Blood umo¿liwia graczom opcjê poproszenia smoczycy Adalon o odrobinê jej krwi celem zakoñczenia questów z morderstwami w Dzielnicy Mostów bez potrzeby zabijania jej. Mod ma na celu przede wszystkim umo¿liwienie dobrym bohaterom ukoñczenie zadania w "dobry" sposób: poprzez odkrycie to¿samoœci klientów grabarza i oczyszczenie pancerza w œwi¹tyni. 
@@ -44,9 +42,14 @@ Upewnij siê, ¿e posiadasz wersjê moda napisan¹ pod twój system operacyjny ("lin-
 uruchom WeInstall setup-c#sb_silber w folderze z gr¹ by zainstalowaæ mod. Nastêpnie uruchom BGMain.exe i zacznij graæ.
 
 
-Je¿eli podczas instalacji natkn¹³eœ siê na jakiekolwiek b³êdy lub problemy, proszê skontaktuj siê ze mn¹ poprzez e-mail lub napisz bug-raport @ Gibberlings Three ( http://forums.gibberlings3.net/ ), albo po niemiecku @ Kerzenburgforum (http://kerzenburg.baldurs-gate.eu) w dziale BG2 Modification:
+Je¿eli podczas instalacji natkn¹³eœ siê na jakiekolwiek b³êdy lub problemy, proszê skontaktuj siê ze mn¹ poprzez e-mail lub napisz bug-raport @ Gibberlings Three, albo po niemiecku @ Kerzenburgforum w dziale BG2 Modification.
 
-Bezpoœredni link do dyskusji: http://kerzenburg.baldurs-gate.eu/showthread.php?t=38198
+Bezpoœredni link do dyskusji: 
+Kerzenburgforum:
+https://www.baldurs-gate.de/index.php?threads/silberdrachenblut-mod-adalons-blood.38198/
+BeamDog's:
+https://forums.beamdog.com/discussion/25241/adalons-blood-mod-for-bgii
+
 
 
 ZGODNOŒÆ
@@ -64,6 +67,8 @@ Bardzo ciekawi¹ mnie wasze doœwiadczenia zwi¹zane ze zgodnoœci¹ i bardzo proszê 
 
 CREDITS
 
+Gandalf the white: Mod idea and dialogues
+
 Ancalagon el Negro: Spanish translation
 Austin (www.aerie.ru, www.arcanecoast.ru): Russian translation
 damian: Polish translation
@@ -72,8 +77,9 @@ Dirty Uncle Bertie: Testing and Proof-reading (English)
 Fennek der Schwarze: Testing
 Headbanger: English translation
 Hook71: proof-reading
-jastey: Coding
+jastey: Coding and dialogues
 Le Marquis: French translation
+Radim "Edvin" Klímek: Check translation
 Riojano2002: Spanish translation
 Serpol: Spanish translation
 stnemele: Proof-reading (English)
@@ -81,14 +87,14 @@ Stoneangel: Italian translation
 White Agnus: Testing
 
 Hedian, Fridtjof: Hosting of the Modification at Rosenranken.org.
-Sir Darian: Hosting of the Modification at Kerzenburgforum!
+Sir Darian, Tim, and Vernochan: Hosting of the Modification at Kerzenburgforum!
 
 TOOLS USED
 
-Adalon's Blood Modification was created using the resources provided by the IESDP (http://iesdp.gibberlings3.net/) and with the following software:
+Adalon's Blood Modification was created using the resources provided by the IESDP (https://gibberlings3.github.io/iesdp/index.htm) and with the following software:
 
-Near Infinity				http://www.idi.ntnu.no/~joh/ni
-WeiDU					http://www.weidu.org
+Near Infinity			https://github.com/NearInfinityBrowser/NearInfinity/wiki
+WeiDU					https://github.com/WeiDUorg/weidu/releases
 CpConverter		http://sourceforge.net/projects/cp-converter/files/cp-converter/CpConverter%20V%200.1.5.0/
 notepad++		http://notepad-plus-plus.org/
 
@@ -96,14 +102,18 @@ notepad++		http://notepad-plus-plus.org/
 Modding communities, tutorials and technical assistance:
 
 
-Kerzenburgforum 			http://kerzenburg.baldurs-gate.eu
-(Rosenranken 				http://www.rosenranken.org)
-BGG Forum 				http: // bgforum.whcity.de/
-The Gibberlings Three			http://gibberlings3.net
-Pocket Plane Group			http://pocketplane.net
+Kerzenburgforum 			https://baldurs-gate.de/index.php
+The Gibberlings Three		https://www.gibberlings3.net/
+Pocket Plane Group			https://www.pocketplane.net/
 
 
 HISTORY
+
+Version 15
+-added chech translation, by Radim "Edvin" Klímek
+-added metadata ini to support Project Infinity
+-switched text format handling to HANDLE_CHARSETS + inconv.exe
+-updated readmes / links
 
 Version 14
 -correction of 2 multiple "DO" transactions

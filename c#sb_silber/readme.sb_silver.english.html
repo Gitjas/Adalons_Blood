@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Adalon's Blood</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="readme/bgreadme.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+<tr>
+	<td align="center"><a href="https://www.baldurs-gate.de/index.php"><img src="readme/BannerSword.png" border="0" alt="Baldur's Gate Forum" /></a></td>
+	<td align="right">
+		&nbsp;
+	</td>
+</tr>
+
+</table>
+<h1>Adalon's Blood for BGT, BGII, BGII:EE, and EET</h1>
+<div class="section"> 
+  <p><strong><a href="https://www.baldurs-gate.de/index.php">A Kerzenburgforum Modification</a><br />  </strong>
+    Author: Gandalf the white<br />
+    Co-Author and Coding: jastey<br />
+    <strong> Languages:</strong> English, German, French, Italian, Polish, Russian, Spanish<br />
+    <strong>Platform: </strong>Windows, macOS, Linux</p> 
+  <p>Adalon's Blood is a small quest extention mod for Baldur's Gate II. It is natively compatible with BGII, BGT, BGII:EE, EET.
+  </p>
+</div>
+
+
+<h2>Content</h2>
+<div class="section">
+  <ol>
+    <li><a href="#install">Installation</a></li>
+      <ul> 
+		<li><a href="#eegames">Notes to modding EE games</a> </li>
+        <li><a href="#windows">Windows</a> </li>
+		<li><a href="#osx">macOS</a> </li>
+		<li><a href="#linux">Linux</a> </li>
+      </ul> 
+    <li><a href="#compat">Compatibility with other mods and Install Order</a></li>
+    <li><a href="#content">Description</a>
+      <ul> 
+		<li><a href="#generalcontent">General Info</a> </li>
+		<li><a href="#content">Content</a> </li>
+		<li><a href="#spoiler">Walkthrough / Spoilers</a> </li>
+      </ul> 
+    </li> 
+    <li><a href="#acknow">Credits</a></li> 	
+    <li><a href="#links">Important Links</a>
+      <ul> 	
+		<li><a href="#tools">Tools Used</a>
+		<li><a href="#communities">Modding Communities, Tutorials, and technical Assistance</a> </li>
+      </ul> 
+    </li> 	
+    <li><a href="#credit">Copyright</a></li>
+    <li><a href="#version">Version History</a> </li> 
+  </ol> 
+</div> 
+
+<h1><a name="install" id="install">Installation</a></h1>
+<div class="section">
+
+NOTE: If you've previously installed the mod, remove it before extracting a new version. To do this, uninstall all previously installed components and delete the mod folder and executables. 
+<br />
+Make sure the game is not running while installing the mod.<br />
+When installing or uninstalling, do not close the DOS window by clicking on the X button! Instead, press the Enter key when instructed to do so.<br />
+
+<h2> <a name="eegames" id="quest">Notes to modding EE games</a></h2>
+The EE games are actively supported games. Please note that every patch update will wipe your current mod setup! If in the middle of a modded game you might want to delay the patch update as even after reinstalling the mods, you might not be able to continue with your old savegames. 
+<h2> <a name="windows" id="quest">Windows</a></h2>
+Extract the contents of the mod archive to your game's main directory (which contains the CHITIN.KEY file). On successful extraction, there should be an c#sb_silber folder and a setup-c#sb_silber.exe file in your game folder. To install, simply double-click setup-c#sb_silber.exe and follow the instructions on screen.<br />
+Run setup-c#sb_silber.exe in your game folder to reinstall, uninstall or otherwise change components.<br />
+<h2> <a name="osx" id="quest">macOS</a></h2>
+Extract the mod archive, then copy the contents of the folder into your game folder (which contains the CHITIN.KEY file). If properly extracted, you should have a "c#sb_silber" folder, setup-c#sb_silber, and setup-c#sb_silber.command in your game folder. To install, simply double-click setup-c#sb_silber.command and follow the instructions on screen.<br />
+Run setup-c#sb_silber.command in your game folder to reinstall, uninstall or otherwise change components.<br />
+<h2> <a name="linux" id="quest">Linux</a></h2>
+Extract the contents of the mod to the folder of the game you wish to modify. Download the latest version of WeiDU for Linux from https://github.com/WeiDUorg/weidu/releases and copy WeiDU and WeInstall to /usr/bin. Following that, open a terminal and cd to your BG2 installation directory, run 'tolower' and answer Y to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. If you're unsure, running tolower and choosing both options is the safe bet.<br />
+Run WeInstall c#sb_silber in your game folder to install the mod. Then run wine BGMain.exe and start playing. <br />
+
+</div>
+
+<h1><a name="compat" id="compat">Compatibility with other mods and Install Order</a></h1>
+<div class="section">
+Adalon's Blood was implemented with WeiDU with highest priority to compatibility with other mods.<br />
+As a quest (extention) mod, it should be installed before NPC and tweak mods.<br />
+
+</div>
+
+<h1><a name="content" id="content">Description</a></h1>
+<div class="section">
+<h2> <a name="generalcontent" id="generalcontent">General Info</a></h2>
+Adalon's Blood Modification is for Baldur's Gate II (BG2, BGT, BGII:EE, EET). It enables the player to ask Adalon for somewhat of her blood to end the 'skinner' murders in the Bridge District without having to kill her. This is mainly aimed at good aligned characters who want to finish the quest in a good way: to discover and eradicate the clients of the skinner and cleanse the armor in a temple. 
+Nevertheless, evil characters with CHAR of 18 or higher may also attempt to convince Adalon to sacrifice some of her blood. There is a 25% chance of success for them in deceiving the silver dragon.<br />
+You do not have to start a new game to play the mod. However, the modification has to be installed *before* visiting Ust Natha the first time. <br />
+More content can be seen if the mod is installed before the first meeting with the 'skinner' Fael in the Umar Hills. <br />
+If the Mod was installed before the first entering of the Drow city, there is (beside fighting it) an additional possibility to defeat the Aboleth.<br />
+
+
+<h2> <a name="content" id="content">Content</a></h2>
+      <ul> 
+		<li>New answer option with Fael inserted which allows a good character to accept the silver dragon blood-quest without having to play evil
+		<li>Answer option with Adalon inserted which allows the PC to ask for some of her blood</li>
+		<li>Fight with the Aboleth in Usth Natha (after returning of Adalon's eggs)</li>
+		<li>Added option to hand over the human skin armor to a temple.</li>
+      </ul> <br />
+
+
+<h2> <a name="spoiler" id="spoiler">Walkthrough / Spoilers</a></h2>	
+In BGII, a good-aligned PC gets involved into the quest up to the point where the unfinished skin-armor can be found and the ingredient "silver dragon blood" is requested. Up to this point no evil action is needed (on the contrary, the good aligned PC tries to stop the murders.)<br />
+This mod gives the possibility to continue the quest without killing for the blood, taking into consideration that Fael disappears for good the moment the PC confronts him, thus giving a possibility to get to the customers of that armor. (It also gives the possibility to give the armor to a temple.)<br />
+
+The mod just gives one way to "end" this quest for good aligned characters in a way it makes any sense, for those who want it. This was done in the less intrusive way possible, so to say. There is no new confrontation with any client other than what is already in the game, as this was not the scope of this mod. It's just an easy and small addition so the quest can be closed by all PCs. <br />
+
+<h1><a name="acknow" id="acknow">Credits</a></h1>
+<div class="section">
+<strong>Gandalf the white:</strong> Mod idea and dialogues</br>
+</br>
+<strong>Ancalagon el Negro:</strong> Spanish translation</br>
+<strong>Austin (www.aerie.ru, www.arcanecoast.ru):</strong> Russian translation damian: Polish translation</br>
+<strong>damian:</strong> Polish translation</br>
+<strong>Daulmakan:</strong> Proofreading (English)</br>
+<strong>Dirty Uncle Bertie:</strong> Testing and Proof-reading (English)</br>
+<strong>Fennek der Schwarze:</strong> Testing</br>
+<strong>Headbanger:</strong> English translation</br>
+<strong>Hook71:</strong> Proofreading (English)</br>
+<strong>jastey:</strong> Coding and dialogues</br>
+<strong>Le Marquis:</strong> French translation</br>
+<strong>Radim "Edvin" Klímek:</strong> Chech translation</br> 
+<strong>Riojano2002:</strong> Spanish translation</br> 
+<strong>Serpol:</strong> Spanish translation</br> 
+<strong>stnemele:</strong> Proofreading (English)</br> 
+<strong>Stoneangel:</strong> Italian translation</br> 
+<strong>White Agnus:</strong> Testing</br> 
+</br>
+Thanks to BioWare, Black Isle and Wizards of the Coast for Baldur's Gate 1, 2 and the Infinity Engine, and BeamDog for the revival of the games including the SoD campaign.</br>
+Thanks to Kerzenburgforum for hosting the mod and giving a place for exchange of ideas.</br>
+Thanks to all modders who developed and are maintaining the IE modding tools, without which this mod would not have been possible.</br>
+Thanks to all who play this mod or any of my mods, and also those of you who give feedback to help improving my mods. Modding would not be as much fun without you. </br>
+I totally mean this although I use this text modules in other readmes, too! :-)</br>
+</div>
+
+<h1><a name="links" id="links">Important Links</a></h1>
+<div class="section">
+<h2> <a name="tools" id="tools">Tools Used</a></h2>
+      <ul> 
+		<li><a href="https://gibberlings3.github.io/iesdp/index.htm">IESDP</a></li>
+		<li><a href="https://forums.beamdog.com/discussion/30593/new-versions-of-nearinfinity-available/p1">Near Infinity</a></li>
+		<li><a href="https://github.com/WeiDUorg/weidu/releases/latest">WeiDU</a></li>
+		<li><a href="http://sourceforge.net/projects/cp-converter/files/cp-converter/CpConverter%20V%200.1.5.0/">CpConverter</a></li>
+		<li><a href="http://notepad-plus-plus.org/">notepad++</a></li>
+      </ul>
+<h2> <a name="communities" id="communities">Modding Communities, Tutorials, and technical Assistance</a></h2>
+      <ul> 
+		<li><a href="https://www.baldurs-gate.de/index.php">Kerzenburgforum (German)</a></li>
+		<li><a href="https://www.gibberlings3.net/">The Gibberlings Three</a></li>
+		<li><a href="http://pocketplane.net">Pocket Plane Group</a></li>
+		<li><a href="http://www.shsforums.net/">Spellhold Studios</a></li>
+      </ul>
+</div>
+
+
+<h1><a name="credit" id="credit">Copyright</a></h1>
+<div class="section">
+This mod is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+This mod is also not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp., Overhaul Games or Beamdog. All other trademarks and copyrights are property of their respective owners.
+</div> 
+
+<h1><a name="version" id="version">Version History</a></h1>
+<div class="section">
+Version 15</br>
+-added chech translation, by Radim "Edvin" Klímek</br>
+-added metadata ini to support Project Infinity</br>
+-switched text format handling to HANDLE_CHARSETS + inconv.exe</br>
+-updated readmes / links</br>
+</br>
+Version 14</br>
+-correction of 2 multiple "DO" transactions</br>
+-added EET-compatibility</br>
+-update to WeiDU 240</br>
+</br>
+Version 13</br>
+-English corrections</br>
+</br>
+Version 12</br>
+-BGII:EE compatibility</br>
+-updated to WeiDU v236</br>
+</br>
+Version 11</br>
+-added Polish translation from damian.</br>
+-update to WeiDU v231</br>
+</br>
+Version 10</br>
+-added Russian translation from Austin (www.aerie.ru, www.arcanecoast.ru).</br>
+</br>
+Version 9</br>
+-fixed bug that prevented the finishing of the quest for some cases</br>
+</br>
+Version 8</br>
+-corrected the language selection </br>
+-added XP reward for finished quest (armor given to temple)</br>
+</br>
+Version 7</br>
+-added Spanish translation by Ancalagon el Negro, Riojano2002 and Serpol, of CLAN REO</br>
+</br>
+Version 6.1</br>
+-corrected credits for Italian translation</br>
+</br>
+Version 6</br>
+-added Italian translation by Stoneangel</br>
+</br>
+Version 5</br>
+-added French translation by Le Marquis (of the d'Oghmatiques)</br>
+</br>
+Version 4 </br>
+- fixed a stutter bug in Adalon's dialogue if first accepting and then rejecting her offer (thanks Dirty Uncle Bertie!)</br>
+-changed to COPY_TRANS for UDSILVER and TNALLY1 to increase compatibility</br>
+-translation of texts in scripts which was overlooked for v3 now added.</br>
+-English editings.</br>
+-timer for drow city goes hostile will now be longer, so the PC has a chance to return to the city while he still looks like a drow. This is especially helpful if played with the SCSII component "improved drow".</br>
+</br>
+Version 3</br>
+- optimization of trigger conditions: now the PC can only ask Adalon about some blood if (s)he actually received the quest from Fael beforehand (thanks White Agnus for pointing out!)</br>
+</br>
+Version 2</br>
+- English translation added (thanks to Donald Schmelling don_schmelling@hotmail.com AKA Headbanger)</br>
+</br>
+Version 1.1</br>
+- Adalons thanks speech-repetition bug repaired (thanks manuel for bug report)</br>
+</br>
+Version 1</br>
+- first release</br>
+<br />
+</div>
+
+</body>

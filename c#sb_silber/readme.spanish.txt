@@ -1,8 +1,6 @@
         			Adalon's Blood 
 			Una modificación para Baldurs Gate II
-                     por Gandalf the White; codificado por jastey
-					
-					Versión 14
+                     por Gandalf the white; codificado por jastey
 
 
 La Modificación Adalon's Blood (La Sangre de Adalon) permite al jugador preguntarle a Adalon por un poco de su sangre para terminar el asesinatos del "desollador" en el Distrito del Puente sin tener que matarla. Ésto principalmente ayuda a los personajes de alineamiento bueno que quieran terminar la misión de una forma buena: para descubrir y erradicar a los clientes del desollador y purificar la armadura en un templo. 
@@ -44,9 +42,12 @@ Asegurate de tener la versión para Linux del mod (llamado "lin-AdalonsBlood-vx.z
 Ejecuta WeInstall setup-c#sb_silber en tu directorio de juego para instalar el mod. Luego ejecuta BGMain.exe y empieza a jugar.
 
 
-Si tienes problemas de instalación o encuentras algún bug, por favor contacta conmigo vía e-mail o escribe un informe del bug en Gibberlings Three ( http://forums.gibberlings3.net/ ), o para la versión alemana en Kerzenburgforum (http://kerzenburg.baldurs-gate.eu) en el foro BG2 Modification:
+Si tienes problemas de instalación o encuentras algún bug, por favor contacta conmigo vía e-mail o escribe un informe del bug en Gibberlings Three, o para la versión alemana en Kerzenburgforum en el foro BG2 Modification:
 
-Enlace directo al hilo de discusión: http://kerzenburg.baldurs-gate.eu/showthread.php?t=38198
+Kerzenburgforum:
+https://www.baldurs-gate.de/index.php?threads/silberdrachenblut-mod-adalons-blood.38198/
+BeamDog's:
+https://forums.beamdog.com/discussion/25241/adalons-blood-mod-for-bgii
 
 Para dudas en castellano, escribe en el foro del Clan REO, en el hilo dedicado al mod:
 
@@ -66,6 +67,7 @@ Estoy interesado en tu experiencia concerniente a la compatibilidad así que por 
 
 
 CREDITS
+Gandalf the white: Mod idea and dialogues
 
 Ancalagon el Negro: Spanish translation
 Austin (www.aerie.ru, www.arcanecoast.ru): Russian translation
@@ -75,8 +77,9 @@ Dirty Uncle Bertie: Testing and Proof-reading (English)
 Fennek der Schwarze: Testing
 Headbanger: English translation
 Hook71: proof-reading
-jastey: Coding
+jastey: Coding and dialogues
 Le Marquis: French translation
+Radim "Edvin" Klímek: Check translation
 Riojano2002: Spanish translation
 Serpol: Spanish translation
 stnemele: Proof-reading (English)
@@ -88,10 +91,10 @@ Sir Darian: Hosting of the Modification at Kerzenburgforum!
 
 TOOLS USED
 
-Adalon's Blood Modification was created using the resources provided by the IESDP (http://iesdp.gibberlings3.net/) and with the following software:
+dalon's Blood Modification was created using the resources provided by the IESDP (https://gibberlings3.github.io/iesdp/index.htm) and with the following software:
 
-Near Infinity				http://www.idi.ntnu.no/~joh/ni
-WeiDU					http://www.weidu.org
+Near Infinity			https://github.com/NearInfinityBrowser/NearInfinity/wiki
+WeiDU					https://github.com/WeiDUorg/weidu/releases
 CpConverter		http://sourceforge.net/projects/cp-converter/files/cp-converter/CpConverter%20V%200.1.5.0/
 notepad++		http://notepad-plus-plus.org/
 
@@ -99,14 +102,18 @@ notepad++		http://notepad-plus-plus.org/
 Modding communities, tutorials and technical assistance:
 
 
-Kerzenburgforum 			http://kerzenburg.baldurs-gate.eu
-(Rosenranken 				http://www.rosenranken.org)
-BGG Forum 				http: // bgforum.whcity.de/
-The Gibberlings Three			http://gibberlings3.net
-Pocket Plane Group			http://pocketplane.net
+Kerzenburgforum 			https://baldurs-gate.de/index.php
+The Gibberlings Three		https://www.gibberlings3.net/
+Pocket Plane Group			https://www.pocketplane.net/
 
 
 HISTORY
+
+Version 15
+-added chech translation, by Radim "Edvin" Klímek
+-added metadata ini to support Project Infinity
+-switched text format handling to HANDLE_CHARSETS + inconv.exe
+-updated readmes / links
 
 Version 14
 -correction of 2 multiple "DO" transactions
