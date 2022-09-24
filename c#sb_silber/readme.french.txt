@@ -77,7 +77,7 @@ Headbanger: English translation
 Hook71: proof-reading
 jastey: Coding and dialogues
 Le Marquis: French translation
-Radim "Edvin" Klímek: Check translation
+Radim "Edvin" Klímek: Czech translation
 Riojano2002: Spanish translation
 Serpol: Spanish translation
 stnemele: Proof-reading (English)
@@ -110,7 +110,7 @@ Pocket Plane Group			https://www.pocketplane.net/
 HISTORY
 
 Version 15
--added chech translation, by Radim "Edvin" Klímek
+-added czech translation, by Radim "Edvin" Klímek
 -added metadata ini to support Project Infinity
 -switched text format handling to HANDLE_CHARSETS + inconv.exe
 -updated readmes / links
