@@ -1,0 +1,20 @@
+IF
+      True()
+THEN
+    RESPONSE #100
+	CutSceneId(Player1)
+	ClearAllActions()
+	Wait(1)
+	CreateCreatureDoor("C#SBDRC2",[1008.3176],12) 
+	CreateCreatureDoor("C#SBDRM3",[955.3127],12) 
+	CreateCreatureDoor("C#SBDRM4",[944.3256],10) 
+	CreateCreatureDoor("C#SBDRF6",[1086.3160],12) 
+	CreateCreatureDoor("C#SBDRF7",[1110.3126],12) 
+	CreateCreatureDoor("C#SBDRF8",[1067.3218],12) 
+	CreateCreatureDoor("C#SBDRF9",[1193.3318],8) 
+	CreateCreatureDoor("C#SBDRF0",[1252.3108],0)
+	SetGlobal("C#SB_AbolethKaempft","GLOBAL",1)
+	RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",2)
+	Wait(5)
+	EndCutSceneMode()
+END

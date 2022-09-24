@@ -1,0 +1,17 @@
+//EXTEND_TOP baldur.bcs
+
+
+IF 
+	OR(4)
+	Global("C#SilberdrachenblutQuestTod","GLOBAL",1)
+	Global("TalkedToTanally1","GLOBAL",0)
+	Dead("TANALLY1")
+	GlobalTimerExpired("C#SB_DrowCityHostileTimer","GLOBAL")
+	GlobalTimerExpired("udEscape","GLOBAL")
+	Global("C#SB_DrowCityHostile","GLOBAL",0)
+THEN 
+	RESPONSE #100
+	SetGlobal("C#SB_DrowCityHostile","GLOBAL",1)
+	Continue()
+END
+

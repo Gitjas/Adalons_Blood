@@ -1,0 +1,5 @@
+@0 = ~Vous remarquez un raccordement d'une canalisation qui semble alimenter le réservoir de l'aboleth et assurer ainsi sa survie.~
+@1 = ~Vous remarquez un raccordement d'une canalisation qui semble alimenter le réservoir de l'aboleth et assurer ainsi sa survie. Vous pouvez détruire ce raccordement si vous le souhaitez.~
+@2 = ~Vous avez détruit le raccordement de la canalisation au réservoir. La canalisation n'alimente plus le réservoir et ne peut plus assurer la survie de l'aboleth.~
+@3 = ~La canalisation ne peut plus alimenter le réservoir de l'aboleth.~
+@4 = ~Vous remarquez un raccordement d'une canalisation qui semble alimenter le réservoir de l'aboleth et assurer ainsi sa survie, mais vous êtes beaucoup trop loin pour pouvoir faire quoi que ce soit.~

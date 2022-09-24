@@ -1,0 +1,290 @@
+//C#SBABOL.BAF
+
+IF
+	Detect([PC])
+	Range([PC],30)
+	Global("C#SB_AbolethKampf","GLOBAL",2)
+	Global("C#SB_AbolethTalked","GLOBAL",0)
+THEN
+	RESPONSE #100
+	  SetGlobal("C#SB_AbolethTalked","GLOBAL",1)
+          StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethZweiterSturm","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	Dead("C#SBDRC1")
+	Dead("C#SBDRM1")
+	Dead("C#SBDRM2")
+	Dead("C#SBDRF1")
+	Dead("C#SBDRF2")
+	Dead("C#SBDRF3")
+	Dead("C#SBDRF4")
+	Dead("C#SBDRF5")
+	Global("C#SB_AbolethTalked","GLOBAL",2)
+THEN
+	RESPONSE #100
+	  SetGlobal("C#SB_AbolethZweiterSturm","GLOBAL",1)
+	  SetGlobal("C#SB_AbolethTalked","GLOBAL",3)
+          StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethZweiterSturm","GLOBAL",1)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	Dead("C#SBDRC2")
+	Dead("C#SBDRM3")
+	Dead("C#SBDRM4")
+	Dead("C#SBDRF6")
+	Dead("C#SBDRF7")
+	Dead("C#SBDRF8")
+	Dead("C#SBDRF9")
+	Dead("C#SBDRF0")
+THEN
+	RESPONSE #100
+	  SetGlobal("C#SB_AbolethGibtAuf","GLOBAL",3)
+          StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethGibtAufTimer","GLOBAL")
+THEN
+	RESPONSE #100
+	  SetGlobal("C#SB_AbolethGibtAuf","GLOBAL",2)
+          StartDialogueNoSet(Player1)
+END
+
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",0)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",1)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10)
+		ForceSpell(LastSeenBy(Myself),BEHOLDER_PARALYZATION)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",1)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",2)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10)
+		ForceSpell([PC],BEHOLDER_CHARM_PERSON)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",2)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",3)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10)
+		ForceSpell(SecondNearest([PC]),BEHOLDER_FEAR)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",3)
+	See(LeastDamagedOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",4)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 	ForceSpell(LeastDamagedOf(Myself),BEHOLDER_CAUSE_SERIOUS_WOUNDS)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",4)
+	See([PC])
+	!See(LeastDamagedOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",5)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 
+		ForceSpell([PC],BEHOLDER_CAUSE_SERIOUS_WOUNDS)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",5)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",6)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 
+		ForceSpell(ThirdNearest([PC]),BEHOLDER_FLESH_TO_STONE)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",6)
+	See([PC])
+	See([PC.0.0.MAGE])
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",7)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 
+		ForceSpell(LastSeenBy(Myself),BEHOLDER_ANTIMAGIC_RAY)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",6)
+	See([PC])
+	!See([PC.0.0.MAGE])
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",7)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 
+		ForceSpell([PC],BEHOLDER_ANTIMAGIC_RAY)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",7)
+	See([GOODCUTOFF.0.0.0.0.SUMMONED])
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",8)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 
+		ForceSpell(LastSeenBy(Myself),BEHOLDER_PARALYZATION)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",8)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",9)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 
+		ForceSpell([PC],BEHOLDER_DOMINATION)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",9)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",10)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 
+		ForceSpell(SecondNearest([PC]),BEHOLDER_SLOW)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",10)
+	See([GOODCUTOFF.0.0.0.0.SUMMONED])
+	Global("summon","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",11)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 
+		ForceSpell(LastSeenBy(Myself),BEHOLDER_PARALYZATION)
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_DEATH_SPELL)
+		SetGlobal("summon","LOCALS",1)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",11)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",12)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 
+		ForceSpell(ThirdNearest([PC]),BEHOLDER_CAUSE_SERIOUS_WOUNDS)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",12)
+	See(LeastDamagedOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",13)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 
+		ForceSpell(LeastDamagedOf(Myself),BEHOLDER_DEATH_RAY)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",13)
+	See([PC])
+	!See(LeastDamagedOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",14)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 
+		ForceSpell([PC],BEHOLDER_DEATH_RAY)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",14)
+	See([PC])
+	See([PC.0.0.MAGE])
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",0)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 
+		ForceSpell(LastSeenBy(Myself),BEHOLDER_ANTIMAGIC_RAY)
+END
+
+IF
+	Global("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_AbolethKaempft","GLOBAL",1)
+	RealGlobalTimerExpired("C#SB_AbolethZauberTimer","GLOBAL")
+	Global("C#SB_AbolethBeholder","LOCALS",14)
+	See([PC])
+	!See([PC.0.0.MAGE])
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_AbolethBeholder","LOCALS",0)
+		RealSetGlobalTimer("C#SB_AbolethZauberTimer","GLOBAL",10) 
+		ForceSpell(LastSeenBy(Myself),BEHOLDER_ANTIMAGIC_RAY)
+END
+

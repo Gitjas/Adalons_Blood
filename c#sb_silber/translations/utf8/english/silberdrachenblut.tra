@@ -1,0 +1,128 @@
+@0    = ~Oh, I still have a request, if there is enough time.~
+@1    = ~Ah. Continue.~
+@2    = ~I will attend to your eggs, but I have one more request which only you can grant...~
+@3    = ~All clear, I'm on my way.~
+@4    = ~What now?!~
+@5    = ~I need some silver dragon blood. May I have yours?~
+@6    = ~I have a problem: In Athkatla I investigated a series of murders.  I discovered that a tanner was the one responsible, but when I confronted him, he escaped.  I continued my search and through several tips learned that he had clients. They wanted armor made out of human skin. I would gladly catch these informants, but they had a condition...~
+@7    = ~Oh, don't worry. Let us continue. You spoke of the fact that you might punish a few creatures...~
+@8    = ~The silver dragon blood for the armor of the skinner.
+
+I have refused to ask Adalon for her help in the matter with the armor of the skinner. It simply seemed wrong to injure such a magnificent being.~
+@9    = ~I have a problem: In Athkatla I investigated a series of murders.  I discovered that a tanner was the one responsible, but when I confronted him, he escaped.  I continued my search and through several tips learned that he had clients. They wanted armor made out of human skin. I would gladly catch these informants, but they had a condition...~
+@10   = ~And why do you tell me this?~
+@11   = ~The problem is that in order to win the trust of his clients, I must allow him to finish the armor.  In addition I must deliver to him the missing ingredient. I regret to say that the final component is silver dragon blood. Do not misunderstand me: I do not want to kill you. It is your decision whether you want to help me or not. I am sure you could deliver some of your blood to me without a fight. I am only asking because I cannot stand to see those *monsters* walking around...~
+@12   = ~The silver dragon blood for the armor of the skinner. 
+
+I have refused to ask Adalon for her help in the matter with the armor of the skinner. It simply seemed wrong to injure such a magnificent being.~
+@13   = ~You want *my* blood?~
+@14   = ~I will grant your request if you grant mine in return. In the Drow city there is an Aboleth, which is evil to the very fiber of its being. It has done great evils with its powerful psionic forces. I wish that you kill it.~
+@15   = ~Do not ask for details. This is my condition.~
+@16   = ~No, this is too much work for me.~
+@17   = ~The silver dragon blood for the armor of the skinner.
+
+I have asked Adalon for her help in the matter with the armor of the skinner. After my explanation she was ready to help me, provided that I complete her request. When I rejected it, she removed her offer.~
+@18   = ~The silver dragon blood for the armor of the skinner.
+
+I have Adalon's consent that she will give me some of her blood if I fulfill her request. However, the task was too much for me to handle. When I rejected her offer, she withdrew hers.~
+@19   = ~I should go back into the Drow city?! Your illusion has ended and they are hostile!~
+@20   = ~I thank you. The task is virtually finished.~
+@21   = ~The silver dragon blood for the armor of the skinner. 
+
+I have asked Adalon for her help in the matter with the armor of the skinner. After my explanation she was ready to help me, provided that I complete a task for her. I am to kill the Aboleth, the being in the fish tank in Ust Natha. I have agreed and will return to the hostile Drow city.
+Adalon warned me about the psionic forces of the Aboleth. I should keep my eyes open whether there is a possibility to damage his tank so that it no longer keeps him alive.~
+@22   = ~The task is virtually finished.~
+@23   = ~The silver dragon blood for the armor of the skinner. 
+
+I have persuaded Adalon to give me some of her blood on the condition that I grant her request. I am to kill the Aboleth, the being in the fish tank in Ust Natha. I have agreed and will return to the Drow city.
+Adalon warned me about the psionic forces of the Aboleth. I should keep my eyes open whether there is a possibility to damage his tank so that it no longer keeps him alive.~
+@24   = ~Then I will not help you in this matter, but I will still take you to the exit. Prepare yourselves. Before I return you to the surface I must take on a more appropriate form.~
+@25   = ~I have extended the illusion so that it will last one more day.  Furthermore, you can stroll in the city of the Drow unnoticed. Be prepared for the psionic forces of the Aboleth, and the armed henchmen to his will. You cannot kill the Aboleth directly. If you do not destroy his tank, you can only hope you are stronger than him.~
+@26   = ~The silver dragon blood for the armor of the skinner. 
+
+Adalon warned me about the psionic forces of the Aboleth. I should keep my eyes open whether there is a possibility to damage his tank so that it no longer keeps him alive. That should considerable shorten the battle.~
+@27   = ~You have your task. Return when it is finished. I still feel the Aboleth's presence.~
+@28   = ~Alas, I have reconsidered. I will not kill the Aboleth.~
+@29   = ~I will return when it is completed.~
+@30   = ~You have succeeded! I no longer feel the presence of the Aboleth. Now it is for me to keep my promise. Cut here into my claw and you will get your blood.~
+@31   = ~I thank you!~
+@32   = ~The silver dragon blood for the armor of the skinner. 
+
+I have asked Adalon for her help in the matter with the armor of the skinner. After my explanation she was ready to help me, provided that I complete a task for her. I am to kill the Aboleth, the being in the fish tank in Ust Natha. I have agreed and will return to the hostile Drow city.
+Adalon warned me about the psionic forces of the Aboleth. I should keep my eyes open whether there is a possibility to damage his tank so that it no longer keeps him alive.~
+@33   = ~The silver dragon blood for the armor of the skinner. 
+
+I have received Adalon's blood. I should be able to find Rejiek's clients now.~
+@34   = ~Great! Give it to me.~
+@35   = ~The silver dragon blood for the armor of the skinner. 
+
+I received Adalon's blood, without taking her life.~
+@36   = ~I warn you, <CHARNAME>. The blood of a silver dragon is a rare and precious commodity. Use it only for the purpose which you had intended.~
+@37   = ~That I will. You have my thanks, noble creature.~
+@38   = ~I will take your warning to heart, Adalon.~
+@39   = ~Yes, certainly.~
+@40   = ~Now I will take you to the exit. Prepare yourselves. Before I return you to the surface I must take on a more appropriate form.~
+@41   = ~You dare it!~
+@42   = ~The eggs of the silver dragon. 
+
+I have, indeed, brought back Adalon her eggs. When I have asked for some of her blood, I should have given an explanation, because she became quite furious...~
+@43   = ~What is going on? My eggs are in danger as we speak!~
+@44   = ~I need some silver dragon blood. Will you give me some of yours?~
+@45   = ~Oh very well. Now I will attend to your eggs.~
+@46   = ~I see a way, however, *first* return my eggs. Then we will speak further about your request. Do not question me; this is my decision.~
+@47   = ~How dare you speak so audaciously, child of Bhaal! If I did not need you, you would be dead! Go, and save my eggs!~
+@48   = ~You are mighty, <CHARNAME>, and my eggs are no longer in danger. You want a precious commodity, consider what it is worth to you.~
+@49   = ~The silver dragon blood for the armor of the skinner. 
+
+I have asked Adalon for her help in the matter with the armor of the skinner. After my explanation she was ready to help me, provided that I complete a task for her. I am to kill the Aboleth, the being in the fish tank in Ust Natha. I have agreed and will return to the hostile Drow city.
+Adalon warned me about the psionic forces of the Aboleth. I should keep my eyes open whether there is a possibility to damage his tank so that it no longer keeps him alive.~
+@50   = ~So be it. Be prepared for the psionic forces of the Aboleth, and the armed henchmen to his will. You cannot kill the Aboleth directly. If you do not destroy his tank, you can only hope you are stronger than him.~
+@51   = ~Now to your request. I still have enough time. You wanted some of my blood...~
+@52   = ~The silver dragon blood for the armor of the skinner. 
+
+I asked Adalon for her aid in the matter with the armor of the skinner.  After my explanation, she was ready to help me as long as I carry out her request.  When I declined, she retracted her offer.~
+@53   = ~The silver dragon blood for the armor of the skinner. 
+
+I have Adalon's consent that she will give me some of her blood if I fulfill her request. However, the task was too much for me to handle. When I rejected her offer, she withdrew hers.~
+@54   = ~How dare you lie to me in such a way, evil being!~
+@55   = ~The eggs of the silver dragon.
+
+I have asked Adalon for some of her blood... Maybe I should have thought of a better tale because she saw through my lie and became quite furious at the request...~
+@56   = ~What lies you tell! A being of your malice can never have such a desire. You will not acquire my blood through such manners. I would smite you for this if I did not depend on you for the safety of my eggs.~
+@57   = ~The silver dragon blood for the armor of the skinner.
+
+I have resolved to kill Adalon to get her blood, because I did not feel like returning to Ust Natha. (Today, I am again delightfully malicious...)~
+@58   = ~The blood of... What an evil deed. I would like to speak with your clients, before I deliver other ingredients!~
+@59   = ~My clients? Why you are suddenly interested in them? You provide the blood if you want to have the armor, nothing more.~
+@60   = ~The leather armor of Rejiek the skinner
+
+I have found the man who was mentioned in the letter from Rejiek's home. I was right in suspecting that it concerns a certain Darcin Cole. Now the man believes that I am Rejiek. He volunteered to finish the leather armor for me if I procure the blood of a silver dragon for him!  I will play his game in order to discover his clientele. Only where do I get the blood of a silver dragon without having to kill it?~
+@61   = ~Anyway you have been interested in my "clients". Now, I have a few friends who would like to speak to you. Well, not so much 'speak' as kill.~
+@62   = ~The leather armor of Rejiek the skinner
+
+Now with the magicians dead, hopefully I have stopped the evil activity. Now I must dispose of this hideous armor properly. Maybe I can find help in a suitable temple.~
+@63   = ~You come... you come to kill me... Yes, I see it in your thoughts. So Adalon has found her henchmen... You are fools! Do you believe me defenseless? See for yourselves!~
+@64   = ~You believe you have defeated me? Now, see! I may only have a limited number of slaves, but there are enough to destroy you!~
+@65   = ~What... What you have done! You have defeated me! This is impossible... Impossible...~
+@66   = ~But I will not die without taking you with me! Now go and see how you will find your way out of this city!~
+@67   = ~What... what is this! I am sluggish... my forces are spent... You have defeated me! This is impossible... impossible...~
+@68   = ~Finally... finally, I am free. I thank you!~
+@69   = ~I have a request... See this hideous armor? It was made from human skin. Can you take it and grant the skinned peace?~
+@70   = ~What a dreadful deed! Leave the armor with us. Helm will help the victims find peace.~
+@71   = ~The silver dragon blood for the armor of the skinner. 
+
+I have left the human skin armament in the hands of the priests of Helm. Hopefully the tormented people can find their peace.~
+@72   = ~What a dreadful deed! Leave the armor with us. Oghma will help the victims find peace.~
+@73   = ~The silver dragon blood for the armor of the skinner. 
+
+I have left the human skin armor in the hands of the priests of Oghma. Hopefully the tormented people can find their peace.~
+@74   = ~What a dreadful deed! Leave the armor with us. Lathander will help the victims find peace.~
+@75   = ~The silver dragon blood for the armor of the skinner. 
+
+I have left the human skin armor in the hands of the priests of Lathander. Hopefully the tormented people can find their peace.~
+@76   = ~What a dreadful deed! Leave the armor with us. Ilmater will help the victims find peace.~
+@77   = ~The silver dragon blood for the armor of the skinner. 
+
+I have left the human skin armor in the hands of the priests of Ilmater. Hopefully the tormented people can find their peace.~
+@78   = ~I have a few friends there who would like to speak with you. Well, not so much 'speak' as kill.~ 
+@79   = ~I cannot do what you want from me. The drow city is hostile, and their defences too strong.~

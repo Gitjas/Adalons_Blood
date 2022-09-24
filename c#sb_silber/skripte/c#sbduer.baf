@@ -1,0 +1,35 @@
+IF
+	
+	GlobalGT("C#SB_AbolethGibtAuf","GLOBAL",0)
+	Global("C#SB_DuergarFriedlich","GLOBAL",0)
+THEN
+    RESPONSE #100
+	ClearAllActions()
+	ChangeEnemyAlly(Myself,NEUTRAL)
+	SetGlobal("C#SB_DuergarFriedlich","GLOBAL",1)
+END
+
+IF
+	Global("C#SB_AbolethKampf","GLOBAL",3)
+	Global("C#SB_DuergarFriedlich","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+    RESPONSE #100
+	SetGlobal("C#SB_DuergarFriedlich","GLOBAL",2)
+	Dialog([PC])
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END

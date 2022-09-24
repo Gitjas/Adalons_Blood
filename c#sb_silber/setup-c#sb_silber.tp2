@@ -1,0 +1,258 @@
+
+BACKUP ~C#SB_silber/backup~
+AUTHOR ~jastey@web.de~ 
+
+VERSION ~14~ //170611
+
+README ~C#SB_silber/readme.%LANGUAGE%.txt~ ~C#SB_silber/readme.english.txt~
+
+
+AUTO_TRA ~C#SB_silber/translations/%s~
+
+
+/* handling of text formats. This is old code. Use HANDLE_CHARSETS instead. */
+ALWAYS
+
+/* This is outdated. Use HANDLE_CHARSETS for tra-formatting, instead */
+
+  ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+  /*
+   * Copies UTF8-encoded tra files over the normal ones, for use with AUTO_TRA
+   */
+  DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
+    COPY ~C#SB_silber/translations/utf8/%LANGUAGE%~  ~C#SB_silber/translations/%LANGUAGE%~
+  END
+  LAF autotra_workaround END
+
+  END
+END
+
+
+
+
+
+
+
+LANGUAGE ~English~  ~english~
+         ~C#SB_silber/translations/english/setup.tra~
+         
+LANGUAGE ~Deutsch~ ~deutsch~
+         ~C#SB_silber/translations/deutsch/setup.tra~ 
+
+LANGUAGE ~Francais~  ~french~
+         ~C#SB_silber/translations/french/setup.tra~
+
+LANGUAGE ~Italiano - by Stoneangel~  ~italian~
+         ~C#SB_silber/translations/italian/setup.tra~
+
+LANGUAGE ~Castellano (Traducido por Clan REO)~  ~spanish~
+         ~C#SB_silber/translations/spanish/setup.tra~
+
+LANGUAGE ~Russian (Austin & AERIE Team)~  ~russian~
+         ~C#SB_silber/translations/russian/setup.tra~
+
+LANGUAGE ~Polski~  ~polish~
+         ~C#SB_silber/translations/polish/setup.tra~
+
+BEGIN @0
+
+
+ADD_JOURNAL EXISTING TITLE (#74382) @8 @12 @17 @18 @21 @23 @26 @32 @33 @35 @49 @52 @53 @57 @60 @62 @71 @73 @75 @77 USING ~C#SB_silber/translations/%LANGUAGE%/silberdrachenblut.tra~
+
+
+ADD_JOURNAL EXISTING TITLE (#74369) @42 @55 USING ~C#SB_silber/translations/%LANGUAGE%/silberdrachenblut.tra~
+
+
+
+
+/* This is old area patching. Do not use this. Use fj_are_structure instead */
+
+COPY_EXISTING ~AR2200.are~ ~override/AR2200.are~
+
+//Prepare for the area modification.
+//---------------------------------DO NOT ALTER FROM HERE TO THE FOLLOWING BREAK.
+READ_SHORT ~0x058~ ~#ofActor~
+READ_SHORT ~0x054~ ~actorOff~
+READ_SHORT ~0x05a~ ~#ofTrigg~
+READ_SHORT ~0x05c~ ~triggOff~
+READ_SHORT ~0x064~ ~#ofSpawn~
+READ_SHORT ~0x060~ ~spawnOff~
+READ_SHORT ~0x06c~ ~#ofEntra~
+READ_SHORT ~0x068~ ~entraOff~
+READ_SHORT ~0x074~ ~#ofConta~
+READ_SHORT ~0x070~ ~contaOff~
+READ_SHORT ~0x076~ ~#ofItems~
+READ_SHORT ~0x078~ ~itemsOff~
+READ_SHORT ~0x080~ ~#ofVerti~
+READ_SHORT ~0x07c~ ~vertiOff~
+READ_SHORT ~0x082~ ~#ofAmbia~
+READ_SHORT ~0x084~ ~ambiaOff~
+READ_SHORT ~0x08c~ ~#ofVaria~
+READ_SHORT ~0x088~ ~variaOff~
+READ_SHORT ~0x09c~ ~#ofExplo~
+READ_SHORT ~0x0A0~ ~exploOff~
+READ_SHORT ~0x0A4~ ~#ofDoors~
+READ_SHORT ~0x0A8~ ~doorsOff~
+READ_SHORT ~0x0AC~ ~#ofAnima~
+READ_SHORT ~0x0B0~ ~animaOff~
+READ_SHORT ~0x0B4~ ~#ofTiled~
+READ_SHORT ~0x0B8~ ~tiledOff~
+READ_SHORT ~0x0BC~ ~songsOff~
+READ_SHORT ~0x0C0~ ~restcOff~
+READ_SHORT ~0x0C8~ ~#ofAutom~
+READ_SHORT ~0x0C4~ ~automOff~
+//Increase the number of TRIGGERS and correct the offsets
+WRITE_SHORT 0x05a (~%#ofTrigg%~ + 1)
+WRITE_SHORT 0x060 (~%spawnOff%~ + 196)
+WRITE_SHORT 0x068 (~%entraOff%~ + 196)
+WRITE_SHORT 0x070 (~%contaOff%~ + 196)
+WRITE_SHORT 0x078 (~%itemsOff%~ + 196)
+WRITE_SHORT 0x07c (~%vertiOff%~ + 196)
+WRITE_SHORT 0x084 (~%ambiaOff%~ + 196)
+WRITE_SHORT 0x088 (~%variaOff%~ + 196)
+WRITE_SHORT 0x0A8 (~%doorsOff%~ + 196)
+//Complete the prep work by adding a bunch of blank bytes.
+INSERT_BYTES (~%triggOff%~ + ~%#ofTrigg%~ * 196) 196
+//Prep work is done.
+//-----------------------------DO NOT ALTER ANYTHING ABOVE HERE TO THE TOP BREAK.
+
+//Set up the vertices you'll be adding.
+WRITE_SHORT 0x080 (~%#ofVerti%~ + 4)
+//NOTE:  YOU CAN CHANGE THE "8" TO HOWEVER NUMBER OF VERTICES YOU ARE
+// ADDING FOR YOUR TRIGGER.
+INSERT_BYTES (~%vertiOff%~ + ~%#ofVerti%~ * 4 + 196) 16
+//In the above two lines, only change the "32".  That numeral should be
+//THE NUMBER OF VERTICES YOU'RE ADDING TIMES 4.
+
+//Correct the offsets
+WRITE_SHORT 0x0A0 (~%exploOff%~ + 212)
+WRITE_SHORT 0x0B0 (~%animaOff%~ + 212)
+WRITE_SHORT 0x0B8 (~%tiledOff%~ + 212)
+WRITE_SHORT 0x0BC (~%songsOff%~ + 212)
+WRITE_SHORT 0x0C0 (~%restcOff%~ + 212)
+WRITE_SHORT 0x0C4 (~%automOff%~ + 212)
+//IN THE ABOVE SECTION, THE "228"s CAN BE CHANGED.
+//IT SHOULD BE (196 + (~#newVertices~ * 4)), so this example adds 8 vertices.
+//196 + 8*4 = 228.
+
+
+//-------------------------------------INSERT SPECIFICS BELOW.
+//Now, you can start adding in the actual code for whatever you are inserting.
+
+//Name
+WRITE_ASCII (~%triggOff%~ + ~%#ofTrigg%~ * 196) ~Pipes~
+WRITE_ASCII (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 8) ~~
+WRITE_ASCII (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 16) ~~
+WRITE_ASCII (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 24) ~~
+
+//Trigger Type
+WRITE_SHORT (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 32) 01
+//01=Info
+//02=Travel
+//03=Proximity
+
+//Trigger Icon
+WRITE_SHORT (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 52) 8
+//8 Action symbol
+//18=dialogue sign
+//22=Info Question Mark
+//28=Inside Exit (stair)
+//30=Outside Exit (door)
+
+//Destination Area RESREF
+ WRITE_ASCII  (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 56) ~None~
+
+//Exit point
+ WRITE_ASCII (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 64) ~~
+
+//Flags:
+WRITE_LONG (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 96) ~00~
+//04=Party Required
+
+//Trigger Text
+SAY (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 100) ~~
+//Replace the "5185" with your chosen dialog string for Info Points.
+//You can use SAY here, just replace "WRITE_LONG" with "SAY" and "5185" with "@#"
+
+//Trap Detection %
+WRITE_LONG (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 104) 00
+
+//Trap Removal %
+WRITE_LONG (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 106) 00
+
+//Is Trapped Flag
+WRITE_LONG (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 108) 00
+//0=no
+//1=yes
+
+//Trap Already Detected Flag
+WRITE_LONG (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 110) 00
+//same as above?
+
+//Trap Location:
+WRITE_LONG (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 112) 565
+WRITE_LONG (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 114) 2992
+
+//Key Type
+ WRITE_ASCII  (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 116) ~~
+
+//Associated Script
+ WRITE_ASCII  (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 124) ~C#SBPIPE~
+
+//Associated Dialog
+ WRITE_ASCII  (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 188) ~~
+
+//Now, we've got to set up the vertices.  I suggest you use IETME to make the graphical
+// representation, then view the numbers with NI
+//bounding box:
+WRITE_LONG (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 34) 694
+WRITE_LONG (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 36) 3216
+WRITE_LONG (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 38) 748
+WRITE_LONG (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 40) 3265
+//CHANGE YOUR POINTS TO THE BOUNDING BOX.
+//#vertices
+WRITE_SHORT (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 42) 4
+//CHANGE THE "8" TO HOWEVER NUMBER OF NEW VERTICES YOU'LL BE ADDING.
+//vertex index
+WRITE_LONG (~%triggOff%~ + ~%#ofTrigg%~ * 196 + 44) ~%#ofVerti%~
+
+//Now, write the new vertices.
+WRITE_SHORT (~%vertiOff%~ + ~%#ofVerti%~ * 4 + 196) 697
+WRITE_SHORT (~%vertiOff%~ + ~%#ofVerti%~ * 4 + 196 + 2) 3216
+WRITE_SHORT (~%vertiOff%~ + ~%#ofVerti%~ * 4 + 196 + 4) 748
+WRITE_SHORT (~%vertiOff%~ + ~%#ofVerti%~ * 4 + 196 + 6) 3210
+WRITE_SHORT (~%vertiOff%~ + ~%#ofVerti%~ * 4 + 196 + 8) 763
+WRITE_SHORT (~%vertiOff%~ + ~%#ofVerti%~ * 4 + 196 + 10) 3265
+WRITE_SHORT (~%vertiOff%~ + ~%#ofVerti%~ * 4 + 196 + 12) 694
+WRITE_SHORT (~%vertiOff%~ + ~%#ofVerti%~ * 4 + 196 + 14) 3251
+//Of course, you can alter the points above to match your trigger
+//as well as add new points, AS LONG AS EVERYTHING FOLLOWS THE PATTERN!
+
+COPY_EXISTING ~baldur.bcs~ ~override~
+DECOMPILE_BCS_TO_BAF
+
+/*Adds a trigger variable to the "udEscape" timer so the turning hostile of Ust Natha can be triggered by the mod:*/
+REPLACE_TEXTUALLY ~\(GlobalTimerExpired("udEscape","GLOBAL")\)~
+~\1 Global("C#SB_DrowCityHostile","GLOBAL",1)~
+COMPILE_BAF_TO_BCS
+BUT_ONLY_IF_IT_CHANGES
+
+
+
+
+COPY ~C#SB_silber/Kreaturen~ ~override~
+
+COMPILE ~C#SB_silber/Dialoge/Silberdrachenblut.D~
+
+COMPILE ~C#SB_silber/Skripte/C#SBABOL.BAF~
+COMPILE ~C#SB_silber/Skripte/C#SBABO1.BAF~
+COMPILE ~C#SB_silber/Skripte/C#SBABO2.BAF~
+COMPILE ~C#SB_silber/Skripte/C#SBDUER.BAF~
+COMPILE ~C#SB_silber/Skripte/C#SBPIPE.BAF~
+
+EXTEND_TOP ~baldur.bcs~ ~C#SB_silber/Skripte/C#BALDUR.BAF~
+EXTEND_BOTTOM ~dragsilv.bcs~ ~C#SB_silber/Skripte/C#UDSILV.BAF~
+EXTEND_TOP ~AR2200.bcs~ ~C#SB_silber/Skripte/C#AR2200.BAF~
+EXTEND_TOP ~ABOLETH.bcs~ ~C#SB_silber/Skripte/C#SBBGAB.BAF~
+
+

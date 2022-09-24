@@ -1,0 +1,124 @@
+@0 = ~Oh, j'aurais encore une requête, si nous avons le temps.~
+@1 = ~Ah. Allez-y.~
+@2 = ~Je m'occuperai des vos œufs, mais j'aurais encore une requête à laquelle vous seule pouvez accéder...~
+@3 = ~La voie est libre, j'y vais.~
+@4 = ~Quoi encore ?!~
+@5 = ~J'ai besoin du sang d'un dragon d'argent. Pourrais-je avoir un peu du vôtre ?~
+@6 = ~J'ai un problème : à Athkatla, j'ai enquêté sur une série de meurtres. J'ai découvert qu'un tanneur en était responsable, mais quand je lui ai fait face, il s'est échappé. J'ai poursuivi mes recherches et grâce à plusieurs tuyaux, j'ai appris qu'il avait des commanditaires. Ils voulaient une armure faite de peau humaine. J'aimerais beaucoup attraper ces gens-là, mais il y avait une condition...~
+@7 = ~Oh, rien en fait. Mais continuons. Vous avez parlé de punir quelques créatures...~
+@8 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur.
+
+J'ai refusé de demander de l'aide à Adalon au sujet de l'armure de l'écorcheur. Cela m'a semblé être une faute de devoir blesser une créature aussi magnifique.~
+@9 = ~J'ai un problème : à Athkatla, j'ai enquêté sur une série de meurtres. J'ai découvert qu'un tanneur en était responsable, mais quand je lui ai fait face, il s'est échappé. J'ai poursuivi mes recherches et grâce à plusieurs tuyaux, j'ai appris qu'il avait des commanditaires. Ils voulaient une armure faite de peau humaine. J'aimerais beaucoup attraper ces gens-là, mais il y avait une condition...~
+@10 = ~Et pourquoi me racontez-vous cela ?~
+@11 = ~Le problème est que pour gagner la confiance de ses clients, je dois le laisser terminer l'armure. Je dois de plus lui fournir l'ingrédient qui manque. Cela me fait de la peine de vous dire que ce dernier ingrédient est du sang de dragon d'argent. Ne vous méprenez pas : je ne veux pas vous faire de mal. C'est à vous de décider si vous voulez m'aider ou pas. Je suis certain que vous pouvez me donner un peu de votre sang sans que nous ayons à nous battre. Je vous demande cela uniquement parce que je ne supporte pas de voir ces *monstres* encore en liberté...~ ~Le problème est que pour gagner la confiance de ses clients, je dois le laisser terminer l'armure. Je dois de plus lui fournir l'ingrédient qui manque. Cela me fait de la peine de vous dire que ce dernier ingrédient est du sang de dragon d'argent. Ne vous méprenez pas : je ne veux pas vous faire de mal. C'est à vous de décider si vous voulez m'aider ou pas. Je suis certaine que vous pouvez me donner un peu de votre sang sans que nous ayons à nous battre. Je vous demande cela uniquement parce que je ne supporte pas de voir ces *monstres* encore en liberté...~
+@12 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+J'ai refusé de demander de l'aide à Adalon au sujet de l'armure de l'écorcheur. Cela m'a semblé être une faute de devoir blesser une créature aussi magnifique.~
+@13 = ~Vous voulez *mon* sang ?~
+@14 = ~J'accèderai à votre requête si vous me rendez aussi un service en retour. Dans la cité des elfes noirs se trouve un aboleth, une créature mauvaise jusqu'à la moëlle. Il a causé un mal considérable avec ses puissants pouvoirs psioniques. Je veux que vous le tuiez.~
+@15 = ~Ne discutez pas les détails. Mon offre n'est pas négociable.~
+@16 = ~Non, ce serait une tâche trop ardue.~
+@17 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur.
+
+J'ai demandé de l'aide à Adalon au sujet de l'armure de l'écorcheur. Après mes explications, elle était prête à m'aider, pourvu que j'accomplisse une tâche pour elle. J'ai refusé, et elle a retiré son offre.~
+@18 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur.
+
+Adalon a accepté de me donner de son sang si j'accédais à une requête pour elle. Mais la tâche qu'elle m'a proposée est trop ardue. J'ai refusé son offre, et elle l'a retirée.~
+@19 = ~Il faudrait que je revienne dans la cité des elfes noirs ?! Votre illusion a pris fin et ils sont hostiles !~
+@20 = ~Je vous remercie. Considérez que c'est fait.~
+@21 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+J'ai demandé de l'aide à Adalon au sujet de l'armure de l'écorcheur. Après mes explications, elle était prête à m'aider, pourvu que j'accomplisse une tâche pour elle. Je dois tuer un aboleth, la créature dans le réservoir à poissons à Ust Natha. J'ai accepté et vais donc retourner dans la cité hostile des elfes noirs. Adalon m'a mis en garde au sujet des pouvoirs psioniques de l'aboleth. Je dois rester à l'affût de toute opportunité d'endommager son réservoir de façon à ce qu'il ne puisse plus le maintenir en vie.~
+@22 = ~Considérez que c'est fait.~
+@23 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+J'ai convaincu Adalon de me donner un peu de son sang pourvu que j'accomplisse une tâche pour elle. Je dois tuer un aboleth, la créature dans le réservoir à poisson à Ust Natha. J'ai accepté et vais donc retourner dans la cité des elfes noirs. Adalon m'a mis en garde au sujet des pouvoirs psioniques de l'aboleth. Je dois rester à l'affût de toute opportunité d'endommager son réservoir de façon à ce qu'il ne puisse plus le maintenir en vie.~
+@24 = ~Dans ce cas je ne peux pas vous aider, mais je vais cependant vous conduire à la sortie. Préparez-vous. Avant de vous ramener à la surface, je dois prendre une forme plus appropriée.~
+@25 = ~J'ai prolongé l'illusion de façon à ce qu'elle dure une journée supplémentaire. De plus, vous pourrez vous promener et passer inaperçu dans la cité des elfes noirs. Soyez prêt à affronter les pouvoirs psioniques de l'aboleth ainsi que les serviteurs armés sous son contrôle. Vous ne pourrez pas tuer directement l'aboleth. Si vous ne détruisez pas son réservoir, votre seul espoir sera d'être plus fort que lui.~ ~J'ai prolongé l'illusion de façon à ce qu'elle dure une journée supplémentaire. De plus, vous pourrez vous promener et passer inaperçue dans la cité des elfes noirs. Soyez prête à affronter les pouvoirs psioniques de l'aboleth ainsi que les serviteurs armés sous son contrôle. Vous ne pourrez pas tuer directement l'aboleth. Si vous ne détruisez pas son réservoir, votre seul espoir sera d'être plus forte que lui.~
+@26 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+Adalon m'a mis en garde au sujet des pouvoirs psioniques de l'aboleth. Je dois rester à l'affût de toute opportunité d'endommager son réservoir de façon à ce qu'il ne puisse plus le maintenir en vie. Cela devrait considérablement faciliter le combat.~
+@27 = ~Je vous ai confié une mission. Revenez quand elle sera terminée. Je perçois encore la présence de l'aboleth.~
+@28 = ~Hélas, j'ai changé d'avis. Je ne tuerai pas cet aboleth.~
+@29 = ~Je reviendrai quand elle sera accomplie.~
+@30 = ~Vous avez réussi ! Je ne perçois plus la présence de l'aboleth. Il est maintenant temps pour moi de tenir ma promesse. Coupez ici, au niveau de ma griffe, et vous aurez votre sang.~
+@31 = ~Je vous remercie !~
+@32 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+J'ai demandé de l'aide à Adalon au sujet de l'armure de l'écorcheur. Après mes explications, elle était prête à m'aider, pourvu que j'accomplisse une tâche pour elle. Je dois tuer un aboleth, la créature dans le réservoir à poissons à Ust Natha. J'ai accepté et vais donc retourner dans la cité hostile des elfes noirs. Adalon m'a mis en garde au sujet des pouvoirs psioniques de l'aboleth. Je dois rester à l'affût de toute opportunité d'endommager son réservoir de façon à ce qu'il ne puisse plus le maintenir en vie.~
+@33 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+J'ai reçu du sang d'Adalon. Je devrais maintenant pouvoir entrer en contact avec les clients de Rejiek.~
+@34 = ~Formidable ! Donnez-le moi.~
+@35 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+J'ai reçu du sang d'Adalon, sans avoir à la tuer.~
+@36 = ~Je vous préviens, <CHARNAME>. Le sang d'un dragon d'argent est une substance rare et précieuse. Servez-vous en uniquement dans le but que vous m'avez indiqué.~
+@37 = ~Certainement. Je vous remercie, noble créature.~
+@38 = ~J'aurai à coeur de suivre votre conseil, Adalon.~
+@39 = ~Oui, certainement.~
+@40 = ~Je vais maintenant vous conduire à la sortie. Préparez-vous. Avant de vous ramener à la surface, je dois prendre une forme plus appropriée.~
+@41 = ~Mais quel culot !~
+@42 = ~Les oeufs du dragon d'argent.
+
+J'ai ramené ses oeufs à Adalon. J'aurais dû lui donner une explication quand je lui ai demandé un peu de son sang, parce que cela l'a rendue plutôt furieuse...~
+@43 = ~Que se passe-t-il ? Mes oeufs sont en danger en ce moment-même !~
+@44 = ~J'ai besoin du sang d'un dragon d'argent. Me donnerez-vous un peu du vôtre ?~
+@45 = ~Oh très bien. Je m'occupe de vos oeufs tout de suite.~
+@46 = ~J'ai une idée pour vous aider. Mais ramenez-moi *d'abord* mes oeufs. Nous pourrons ensuite parler plus longuement de votre requête. J'ai pris ma décision, ne discutez pas.~
+@47 = ~Comment osez-vous me parler si effrontément, enfant de Bhaal ?! Si je n'avais pas besoin de vous, vous seriez déjà mort ! Déguerpissez, et sauvez mes oeufs !~ ~Comment osez-vous me parler si effrontément, enfant de Bhaal ?! Si je n'avais pas besoin de vous, vous seriez déjà morte ! Déguerpissez, et sauvez mes oeufs !~
+@48 = ~Votre puissance est considérable, <CHARNAME>, et mes oeufs ne sont plus en danger. Vous voulez un produit précieux, réfléchissez bien à la valeur qu'il a pour vous.~
+@49 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+J'ai demandé de l'aide à Adalon au sujet de l'armure de l'écorcheur. Après mes explications, elle était prête à m'aider, pourvu que j'accomplisse une tâche pour elle. Je dois tuer un aboleth, la créature dans le réservoir à poissons à Ust Natha. J'ai accepté et vais donc retourner dans la cité hostile des elfes noirs. Adalon m'a mis en garde au sujet des pouvoirs psioniques de l'aboleth. Je dois rester à l'affût de toute opportunité d'endommager son réservoir de façon à ce qu'il ne puisse plus le maintenir en vie.~
+@50 = ~Qu'il en soit ainsi. Soyez prêt à affronter les pouvoirs psioniques de l'aboleth ainsi que les serviteurs armés sous son contrôle. Vous ne pourrez pas tuer directement l'aboleth. Si vous ne détruisez pas son réservoir, votre seul espoir sera d'être plus fort que lui.~ ~Qu'il en soit ainsi. Soyez prête à affronter les pouvoirs psioniques de l'aboleth ainsi que les serviteurs armés sous son contrôle. Vous ne pourrez pas tuer directement l'aboleth. Si vous ne détruisez pas son réservoir, votre seul espoir sera d'être plus forte que lui.~
+@51 = ~Maintenant, votre requête. Il me reste assez de temps. Vous voulez un peu de mon sang...~
+@52 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+J'ai demandé de l'aide à Adalon au sujet de l'armure de l'écorcheur. Après mes explications elle était prête à m'aider, pourvu que j'accomplisse une tâche pour elle. J'ai refusé, et elle a retiré son offre.~
+@53 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+Adalon a accepté de me donner de son sang si j'accède à une requête pour elle. Mais la tâche qu'elle m'a proposée est trop ardue. J'ai refusé, et elle a retiré son offre.~
+@54 = ~Comment osez-vous me mentir ainsi, créature maléfique !~
+@55 = ~Les oeufs du dragon d'argent.
+
+J'ai demandé un peu de son sang à Adalon... J'aurais peut-être dû trouver une meilleure histoire parce qu'elle m'a percé à jour et s'est mise en fureur quand je lui ai fait ma demande...~
+@56 = ~Quels mensonges me racontez-vous là ! Une créature malveillante comme vous n'aspire pas à ce genre d'actes. Vous n'aurez pas mon sang de cette manière-là. Je vous châtierais bien pour cela si la sécurité de mes oeufs ne dépendait pas de vous.~
+@57 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur.
+
+J'ai décidé de tuer Adalon pour obtenir son sang, car je n'avais pas envie de retourner à Ust Natha. (Aujourd'hui je me sens à nouveau délicieusement maléfique...)~
+@58 = ~Le sang d'un... Quel acte maléfique ! Avant de vous fournir d'autres ingrédients, j'aimerais parler à vos clients !~
+@59 = ~Mes clients ? Pourquoi cet intérêt soudain envers eux ? Vous fournissez le sang si vous voulez avoir l'armure et c'est tout.~
+@60 = ~L'armure de cuir de Rejiek l'écorcheur.
+
+J'ai trouvé l'homme mentionné dans la lettre trouvée chez Rejiek. J'avais raison de soupçonner qu'elle concerne un certain Darcin Cole. Cet homme croit maintenant que je suis Rejiek. Il s'est proposé pour me terminer l'armure de cuir si je lui procure du sang de dragon d'argent ! Je vais continuer à jouer le jeu dans le but de découvrir qui sont ses clients. Mais où pourrais-je bien trouver du sang de dragon d'argent sans avoir à en tuer un ?~
+@61 = ~Quoi qu'il en soit, tu t'es intéressé à mes "clients". Certains de mes associés souhaiteraient te voir. Mais pas pour te parler, pour te tuer.~
+@62 = ~L'armure de cuir de Rejiek l'écorcheur
+
+J'espère avoir fait cesser cette activité maléfique maintenant que les magiciens sont morts. Je dois maintenant me débarrasser de cette horrible armure comme il le faut. Peut-être pourrai-je trouver de l'aide dans un temple adéquat.~
+@63 = ~Vous venez... Vous venez me tuer... Oui, je le lis dans vos pensées. Ainsi Adalon a trouvé des serviteurs... Vous êtes stupides ! Me croyez-vous sans défense ? Voyez vous-mêmes !~
+@64 = ~Vous croyez m'avoir vaincu ? Alors voyez ! Je n'ai peut-être qu'un nombre réduit d'esclaves, mais ils sont assez nombreux pour vous détruire !~
+@65 = ~Que... Qu'avez-vous fait ! Vous m'avez vaincu ! C'est impossible... impossible...~
+@66 = ~Mais vous mourrez avec moi ! Partez, et essayez donc de vous échapper de cette cité !~
+@67 = ~Que... Qu'est-ce que cela ! Je me sens engourdi... Je n'ai plus de force... Vous m'avez vaincu ! C'est impossible... impossible...~
+@68 = ~Enfin... Je suis enfin libre. Je vous remercie !~
+@69 = ~J'ai une requête... Vous voyez cette horrible armure ? Elle est faite de peau humaine. Pouvez-vous la prendre et accorder le repos éternel aux victimes qui ont été écorchées pour elle ?~
+@70 = ~Quel acte épouvantable ! Laissez-nous cette armure. Heaum aidera les victimes à trouver le repos.~
+@71 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+J'ai laissé l'armure de peau humaine aux mains des prêtres de Heaum. Espérons que les gens qui ont été torturés pour elle pourront reposer en paix.~
+@72 = ~Quel acte épouvantable ! Laissez-nous cette armure. Oghma aidera les victimes à trouver le repos.~
+@73 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+J'ai laissé l'armure de peau humaine aux mains des prêtres d'Oghma. Espérons que les gens qui ont été torturés pour elle pourront reposer en paix.~
+@74 = ~Quel acte épouvantable ! Laissez-nous cette armure. Lathandre aidera les victimes à trouver le repos.~
+@75 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+J'ai laissé l'armure de peau humaine aux mains des prêtres de Lathandre. Espérons que les gens qui ont été torturés pour elle pourront reposer en paix.~
+@76 = ~Quel acte épouvantable ! Laissez-nous cette armure. Ilmater aidera les victimes à trouver le repos.~
+@77 = ~Du sang de dragon d'argent pour l'armure de l'écorcheur. 
+
+J'ai laissé l'armure de peau humaine aux mains des prêtres d'Ilmater. Espérons que les gens qui ont été torturés pour elle pourront reposer en paix.~
+@78 = ~Certains de mes associés souhaiteraient te voir. Mais pas pour te parler, pour te tuer.~
+@79 = ~Je ne peux pas accomplir ce que vous souhaitez. La cité des elfes noirs est hostile et leurs défenses trop fortes.~

@@ -1,0 +1,18 @@
+//EXTEND_TOP ABOLETH.BCS
+
+IF
+	Clicked([ANYONE])
+	Global("C#SB_AbolethKampf","GLOBAL",2)
+	GlobalGT("C#SB_AbolethTalked","GLOBAL",0)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@0)
+END
+
+IF
+	Clicked([ANYONE])
+	Global("C#SB_AbolethKampf","GLOBAL",3)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@1)
+END

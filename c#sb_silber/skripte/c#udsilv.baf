@@ -1,0 +1,12 @@
+//EXTEND_TOP udsilver.bcs
+
+IF 
+	Allegiance(Myself,ENEMY)
+	Global("C#SB_AbolethKampf","GLOBAL",1)
+	Global("C#SB_AdalonAngegriffen","GLOBAL",0)
+THEN 
+	RESPONSE #100
+	SetGlobal("C#SB_AdalonAngegriffen","GLOBAL",1)
+	StartDialogueNoSet(Player1)
+END
+

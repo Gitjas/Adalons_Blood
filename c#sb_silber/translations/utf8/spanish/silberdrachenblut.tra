@@ -1,0 +1,130 @@
+@0    = ~Oh, aún tengo una solicitud que haceros, si tenéis suficiente tiempo.~
+@1    = ~Ah. Continuad.~
+@2    = ~Me encargaré de vuestros huevos, pero aún me queda una petición mas que sólo vos podéis conceder...~
+@3    = ~De acuerdo, me pondré en marcha.~
+@4    = ~¿¡Y ahora qué?!~
+@5    = ~Necesito algo de sangre de un Dragón Plateado. ¿Podríais darme de la vuestra?~
+@6    = ~Tengo un problema: en Athkatla, investigué una serie de asesinatos. Descubrí que el único responsable era un curtidor, pero cuando me enfrenté a él, se escapó. Continué la investigación y mediante algunos trucos averigué que el curtidor tenía clientes. Ellos querían una armadura fabricada con piel humana. Me encantaría cazarles, pero hay un problema...~
+@7    = ~Oh, no importa. Continuemos. Hablábais de la necesidad que tuvisteis de castigar a unas pocas criaturas...~
+@8    = ~La sangre de Dragón Plateado para la armadura del curtidor.
+
+He evitado pedirle ayuda a Adalon sobre el asunto de la armadura del curtidor. Simplemente, está mal herir a un ser tan maravilloso.~
+@9    = ~Tengo un problema: en Athkatla, investigué una serie de asesinatos. Descubrí que el único responsable era un curtidor, pero cuando me enfrenté a él, se escapó. Continué la investigación y mediante algunos trucos averigué que el curtidor tenía clientes. Ellos querían una armadura fabricada con piel humana. Me encantaría cazarles, pero hay un problema...~
+@10   = ~¿Y por qué me lo cuentas?~
+@11   = ~El problema es que para ganarme la confianza de esos clientes, debería dejarle terminar la armadura. Además, debo entregarle el ingrediente que falta. Lamento decir que el componente final es la sangre de un Dragón Plateado. No me malinterpretéis: no deseo mataros. Es vuestra decisión ayudarme o no. Estoy seguro de que podríais darme algo de vuestra sangre sin necesidad de un combate. Sólo lo he preguntado porque no soporto ver a esos *monstruos* caminando tranquilamente por ahí...~ ~El problema es que para ganarme la confianza de esos clientes, debería dejarle terminar la armadura. Además, debo entregarle el ingrediente que falta. Lamento decir que el componente final es la sangre de un Dragón Plateado. No me malinterpretéis: no deseo mataros. Es vuestra decisión ayudarme o no. Estoy segura de que podríais darme algo de vuestra sangre sin necesidad de un combate. Sólo lo he preguntado porque no soporto ver a esos *monstruos* caminando tranquilamente por ahí...~
+@12   = ~La sangre de Dragón Plateado para la armadura del curtidor. 
+
+He evitado pedirle ayuda a Adalon sobre el asunto de la armadura del curtidor. Simplemente, está mal herir a un ser tan maravilloso.~
+@13   = ~¿Vos queries *mi* sangre?~
+@14   = ~Atenderé a vuestra petición si a cambio atendeis la mía. En la ciudad drow hay un Abolez, un ser malvado como cada fibra de su ser. Ha causado grandes males con sus poderes psiónicos. Deseo que lo mateis.~
+@15   = ~No pregunteis por los detalles. Esta es mi condición.~
+@16   = ~No, es demasiado trabajo para mí.~
+@17   = ~La sangre de Dragón Plateado para la armadura del curtidor.
+
+He pedido ayuda a Adalon sobre el asunto de la armadura del curtidor. Después de mi explicación, se ofreció a ayudarme, si a cambio realizaba una tarea para ella. Cuando la rechacé, ella retiró su oferta.~
+@18   = ~La sangre de Dragón Plateado para la armadura del curtidor.
+
+Tengo el consentimiento de Adalon. Ella me daría algo de su sangre si completaba una tarea. Sin embargo, era demasiado complicado para que yo lo manejara. Cuando rechacé la oferta, ella retiró la suya.~
+@19   = ~¿¡Tendría que volver a la ciudad drow?! ¡Vuestra ilusión ya finalizó y son hostiles!~
+@20   = ~Os lo agradezco. La tarea está prácticamente terminada.~
+@21   = ~La sangre de Dragón Plateado para la armadura del curtidor. 
+
+He pedido ayuda a Adalon sobre el asunto de la armadura del curtidor. Después de mi explicación, se ha ofrecido a ayudarme, si a cambio realizo una tarea para ella. Tengo que matar al Abolez, el ser del tanque de agua de Ust Natha. He accedido, y debo regresar a la ciudad drow.
+Adalon me ha puesto en guardia contra los poderes psiónicos del Abolez. Debería abrir los ojos ante cualquier oportunidad de dañar el tanque de agua, sin el cual no puede mantenerse vivo.~
+@22   = ~La tarea está prácticamente terminada.~
+@23   = ~La sangre de Dragón Plateado para la armadura del curtidor. 
+
+He convencido a Adalon para que me dé algo de su sangre, con la condición de cumplir su pedido. Tengo que matar al Abolez, el ser del tanque de agua de Ust Natha. He accedido, y debo regresar a la ciudad drow.
+Adalon me ha puesto en guardia contra los poderes psiónicos del Abolez. Debería abrir los ojos ante cualquier oportunidad de dañar el tanque de agua, sin el cual no puede mantenerse vivo.~
+@24   = ~Entonces no os ayudaré con lo que me pedis, pero aún os llevaré hasta la salida. Preparaos. Antes de llevaros de nuevo a la superficie, debo adoptar una forma mas apropiada.~
+@25   = ~He alargado la ilusión para que dure un día mas. Además, podreis circular inadvertido por la urbe de los drow. Estaos alerta ante los poderes psiónicos del Abolez, y los esbirros armados atados a su voluntad. No podreis matar al Abolez directamente. Si no destrozais su tanque de agua, sólo podeis esperar que seais más fuerte que él.~
+@26   = ~La sangre de Dragón Plateado para la armadura del curtidor.  
+
+Adalon me ha puesto en guardia contra los poderes psiónicos del Abolez. Debería abrir los ojos ante cualquier oportunidad de dañar el tanque de agua, sin el cual no puede mantenerse vivo. Eso debería reducir considerablemente la batalla.~
+@27   = ~Teneis vuestra tarea. Regresad cuando la hayais completado. Aún puedo sentir la presencia del Abolez.~
+@28   = ~Alas, lo he reconsiderado. No mataré al Abolez.~
+@29   = ~Regresaré cuando la tarea haya sido completada.~
+@30   = ~¡Habeis tenido éxito! Ya no siento la presencia del Abolez. Ahora debo cumplir mi promesa. Cortadme aquí, junto a mi garra, y conseguiréis vuestra ansiada sangre.~
+@31   = ~¡Os lo agradezco!~
+@32   = ~La sangre de Dragón Plateado para la armadura del curtidor. 
+
+He convencido a Adalon para que me dé algo de su sangre, con la condición de cumplir su pedido. Tengo que matar al Abolez, el ser del tanque de agua de Ust Natha. He accedido, y debo regresar a la ciudad drow.
+Adalon me ha puesto en guardia contra los poderes psiónicos del Abolez. Debería abrir los ojos ante cualquier oportunidad de dañar el tanque de agua, sin el cual no puede mantenerse vivo.~
+@33   = ~La sangre de Dragón Plateado para la armadura del curtidor. 
+
+He conseguido la sangre de Adalon. Ahora debería ser capaz de encontrar a los clientes de Rejiek.~
+@34   = ~¡Genial! Dádmelo.~
+@35   = ~La sangre de Dragón Plateado para la armadura del curtidor. 
+
+He conseguido la sangre de Adalon, sin quitarle la vida.~
+@36   = ~Os aviso, <CHARNAME>. La sangre de un Dragón Plateado es una mercancía rara y preciosa. Úsadla sólo para el fin que perseguís.~
+@37   = ~Asi será. Os ofrezco mi agradecimiento, noble criatura.~
+@38   = ~Vuestra advertencia será muy tenida en cuenta, Adalon.~
+@39   = ~Sí, por supuesto.~
+@40   = ~Ahora os llevaré a la salida. Preparaos. Antes de llevaros de nuevo a la superficie, debo adoptar una forma mas apropiada.~
+@41   = ~¡Cómo os atreveis!~
+@42   = ~Los huevos del Dragón Plateado. 
+
+He traido a Adalon sus huevos. Cuando le he pedido algo de su sangre, debería haberle dado una explicación porque se puso furiosa...~
+@43   = ~¿Qué ocurre? ¡Mis huevos estan en peligro mientras hablamos!~
+@44   = ~Necesito algo de sangre de Dragón Plateado. ¿Me daríais un poco de la vuestra?~
+@45   = ~Oh, está bien. Ahora me encargaré de vuestros huevos.~
+@46   = ~Sin embargo, veo una forma. *Primero* recupera mis huevos. Entonces hablaremos mas sobre vuestra solicitud. No me preguntes más; ésta es mi decisión.~
+@47   = ~¡Cómo os atreveis a hablarme de forma tan insolente, Hijo de Bhaal! ¡Si no os necesitara, ya estariais muerto! ¡Id, y salvad mis huevos!~ ~¡Cómo te atreveis a hablarme de forma tan insolente, Hija de Bhaal! ¡Si no os necesitara, ya estariais muerta! ¡Id, y salvad mis huevos!~
+@48   = ~Sois poderoso, <CHARNAME>, y mis huevos ya no están en peligro. Quereis una mercacía valiosa, considerando lo que vale la pena para vos.~ ~Sois poderosa, <CHARNAME>, y mis huevos ya no están en peligro. Quereis una mercacía valiosa, considerando lo que vale la pena para vos.~
+@49   = ~La sangre de Dragón Plateado para la armadura del curtidor. 
+
+He convencido a Adalon para que me dé algo de su sangre, con la condición de cumplir su pedido. Tengo que matar al Abolez, el ser del tanque de agua de Ust Natha. He accedido, y debo regresar a la ciudad drow.
+Adalon me ha puesto en guardia contra los poderes psiónicos del Abolez. Debería abrir los ojos ante cualquier oportunidad de dañar el tanque de agua, sin el cual no puede mantenerse vivo.~
+@50   = ~Así será. Estad alerta ante los poderes psiónicos del Abolez, y los esbirros armados atados a su voluntad. No podreis matar al Abolez directamente. Si no destrozais su tanque de agua, sólo podeis esperar que seais más fuerte que él.~
+@51   = ~Ahora hablemos de vuestra petición. Aun tengo bastante tiempo. Quereis algo de mi sangre...~
+@52   = ~La sangre de Dragón Plateado para la armadura del curtidor. 
+
+He pedido ayuda a Adalon sobre el asunto de la armadura del curtidor. Después de mi explicación, se ofreció a ayudarme, si a cambio hacía una tarea para ella. Cuando la rechacé, ella retiró su oferta.~
+@53   = ~La sangre de Dragón Plateado para la armadura del curtidor. 
+
+Tengo el consentimiento de Adalon. Ella me daría algo de su sangre si completaba una tarea. Sin embargo, era demasiado complicado para que yo lo manejara. Cuando rechacé la oferta, ella retiró la suya.~
+@54   = ~¡Cómo os atreveis a mentirme así, malvado!~ ~¡Cómo os atreveis a mentirme así, malvada!~
+@55   = ~Los huevos del Dragón Plateado.
+
+He pedido a Adalon algo de su sangre... Quizás debería haberme pensado una historia mejor, porque vio a través de mis mentiras y se puso muy furiosa por la petición...~
+@56   = ~¡Todo lo que sale de vuestra boca son metiras! Un ser de vuestra maldad nunca podrá tener tal deseo. No conseguireis mi sangre de esa manera. Me encantaría aplastaros por esto si la seguridad de mis huevos no dependiera de vos.~
+@57   = ~La sangre de Dragón Plateado para la armadura del curtidor. 
+
+He decidido matar a Adalon para conseguir su sangre, porque no estoy de humor para regresar a Ust Natha. (Hoy, me siento de nuevo deliciosamente malvado...)~ ~La sangre de Dragón Plateado para la armadura del curtidor. 
+
+He decidido matar a Adalon para conseguir su sangre, porque no estoy de humor para regresar a Ust Natha. (Hoy, me siento de nuevo deliciosamente malvada...)~
+@58   = ~La sangre de... es un acto malvado. ¡Me encantaría hablar con vuestros clientes, antes de que entregaros otros ingredientes!~
+@59   = ~¿Mis clientes? ¿Por qué estais de repente interesado en ellos? Conseguid la sangre si deseais tener la armadura, sólo eso.~ ~¿Mis clientes? ¿Por qué estais de repente interesada en ellos? Conseguid la sangre si deseais tener la armadura, sólo eso.~
+@60   = ~La armadura de cuero de Rejiek el curtidor
+
+He encontrado al hombre mencionado en la carta de la casa de Rejiek. Tenía razón al sospechar que se trataba de un tal Darcin Cole. Ahora el hombre cree que yo soy Rejiek. ¡Se ha ofrecido a terminar la armadura de cuero humano para mí si le consigo la sangre de un Dragón Plateado! Jugaré a su juego hasta que descubra a su clientela. Aunque... ¿donde conseguiré la sangre de un Dragón Plateado sin matar a uno?~
+@61   = ~Así que habéis estado interesado en mis "clientes". Bueno, tengo unos cuantos amigos a los que les gustaría hablar con vos. Mas que "hablar, es "matar".~ ~Así que habéis estado interesada en mis "clientes". Bueno, tengo unos cuantos amigos a los que les gustaría hablar con vos. Mas que "hablar, es "matar".~
+@62   = ~La armadura de cuero de Rejiek el curtidor
+
+Ahora que los magos están muertos, espero haber detenido estas malvadas actividades. Ahora debería encargarme adecuadamente de esta infame armadura. Quizás pueda encontrar ayuda en un templo adecuado.~
+@63   = ~Habéis venido... habéis venido a matarme... Sí, lo veo en vuestros pensamientos. Así que Adalon ha encontrado lacayos... ¡Sois imbéciles! ¿Creéis que estoy indefenso? ¡Vedlo por vosotros mismos!~
+@64   = ~¿Creéis que me habéis derrotado? ¡Ved! ¡Sólo puedo tener un número limitado de esclavos, pero son suficiente para destruiros!~
+@65   = ~¿Qué... qué habéis hecho? ¡Me habéis vencido! Es imposible... imposible...~
+@66   = ~¡Pero no moriré sin llevaros conmigo! ¡Ahora id e intentad escapar de esta ciudad!~
+@67   = ~¿Qué... qué es esto?  Estoy debilitándome... mis fuerzas se agotan... ¡Me habéis vencido! Es imposible... imposible...~
+@68   = ~Por fin... por fin, soy libre. ¡Gracias!~
+@69   = ~Tengo una petición que haceros... ¿Veis esta armadura maldita? Está hecha de piel humana. ¿Podéis tomarla y darle paz a los despellejados?~
+@70   = ~¡Qué horrible labor! Dejad la armadura con nosotros. Helm ayudará a las víctimas a encontrar la paz.~
+@71   = ~La sangre del Dragón Plateado para la armadura del curtidor. 
+
+He dejado la armadura de piel humana en las manos de los sacerdotes de Helm. Espero que las torturadas víctimas puedan encontrar la paz.~
+@72   = ~¡Qué horrible labor! Dejad la armadura con nosotros. Oghma ayudará a las víctimas a encontrar la paz.~
+@73   = ~La sangre del Dragón Plateado para la armadura del curtidor. 
+
+He dejado la armadura de piel humana en las manos de los sacerdotes de Oghma. Espero que las torturadas víctimas puedan encontrar la paz.~
+@74   = ~¡Qué horrible labor! Dejad la armadura con nosotros. Lathander ayudará a las víctimas a encontrar la paz.~
+@75   = ~La sangre del Dragón Plateado para la armadura del curtidor. 
+
+He dejado la armadura de piel humana en las manos de los sacerdotes de Lathander. Espero que las torturadas víctimas puedan encontrar la paz.~
+@76   = ~¡Qué horrible labor! Dejad la armadura con nosotros. Ilmater ayudará a las víctimas a encontrar la paz.~
+@77   = ~La sangre del Dragón Plateado para la armadura del curtidor. 
+
+He dejado la armadura de piel humana en las manos de los sacerdotes de Ilmater. Espero que las torturadas víctimas puedan encontrar la paz.~
+@78   = ~Tengo aquí a unos cuantos amigos a los que les gustaría hablar con vos. Bueno, mas que "hablar", sería "matar".~ 
+@79   = ~No puedo hacer lo que me pedís. La ciudad drow es hostil, y sus defensas son demasiado fuertes.~

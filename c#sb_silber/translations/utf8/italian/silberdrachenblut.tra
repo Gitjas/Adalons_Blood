@@ -1,0 +1,128 @@
+@0    = ~Oh, Ho ancora una richiesta, se c'è abbastanza tempo.~
+@1    = ~Ah. Continua.~
+@2    = ~Io mi prenderò cura delle tue uova, ma ho ancora una richiesta che solo tu puoi esaudire...~
+@3    = ~Tutto chiaro, me ne vado.~
+@4    = ~E ora cosa?!~
+@5    = ~Ho bisogno di un po' di sangue di drago d'argento. Posso avere il tuo?~
+@6    = ~Ho un problema: Ad Athkatla ho indagato su una serie di omicidi. Ho scoperto che un conciatore era il responsabile, ma quando l'ho affrontato, lui è fuggito. Ho continuato la mia ricerca e attraverso vari indizi ho appreso che aveva dei clienti. Essi volevano un'armatura fatta con pelle umana. Acciufferei volentieri questi informatori, ma loro avevano un patto...~
+@7    = ~Oh, non preoccuparti. Andiamo avanti. Parlavi del fatto che potresti punire alcune creature...~
+@8    = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'...
+
+Ho rifiutato di chiedere ad Adalon il suo aiuto nella questione dell'armatura del 'conciatore'. È sembrato semplicemente sbagliato ferire un così magnifico essere.~
+@9    = ~Ho un problema: Ad Athkatla ho indagato su una serie di omicidi. Ho scoperto che un conciatore era il responsabile, ma quando l'ho affrontato, lui è fuggito. Ho continuato la mia ricerca e attraverso vari indizi ho appreso che aveva dei clienti. Essi volevano un'armatura fatta con pelle umana. Acciufferei volentieri questi informatori, ma loro avevano un patto...~
+@10   = ~E perché mi dici ciò?~
+@11   = ~Il problema è che al fine di conquistare la fiducia dei suoi clienti, io devo permettergli di terminare l'armatura.  Inoltre devo consegnargli l'ingrediente mancante. Mi spiace dire che l'ultimo componente è il sangue di drago d'argento. Non fraintendermi: io non voglio ucciderti. È una tua decisione se vuoi aiutarmi oppure no. Sono certo che potresti consegnarmi un po' del tuo sangue senza combattere. Io te lo sto chiedendo solo perché non posso star fermo a guardare questi “mostri” girare indisturbati...~
+@12   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Ho rifiutato di chiedere ad Adalon il suo aiuto nella questione dell'armatura del 'conciatore'. È sembrato semplicemente sbagliato ferire un così magnifico essere.~
+@13   = ~Tu vuoi il “mio” sangue?~
+@14   = ~Io esaudirò la tua richiesta se tu in cambio esaudirai la mia. Nella città Drow c'è un Aboleth, che è malvagio in ogni fibra del suo essere. Ha fatto grandi malvagità con i suoi potenti poteri psionici. Io desidero che tu lo uccida.~
+@15   = ~Non chiedere i dettagli. Questa è la mia condizione.~
+@16   = ~No, questo è troppo lavoro per me.~
+@17   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'.
+
+Io ho chiesto ad Adalon il suo aiuto nella questione dell'armatura del 'conciatore'. Dopo la mia spiegazione è stata pronta ad aiutarmi, a condizione che io completi la sua richiesta. Quando ho rifiutato, lei ha rimosso la sua offerta.~
+@18   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'.
+
+Ho il consenso di Adalon che mi darà un po' del suo sangue se soddisferò la sua richiesta. Tuttavia, il compito era troppo per me da gestire. Quando ho respinto la sua offerta, lei ha ritirato la sua.~
+@19   = ~Dovrei tornare nella città Drow?! La tua illusione è finita e loro sono ostili!~
+@20   = ~Ti ringrazio. Il compito è praticamente finito.~
+@21   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Io ho chiesto ad Adalon il suo aiuto nella questione dell'armatura del 'conciatore'. Dopo la mia spiegazione è stata pronta ad aiutarmi, a condizione che io completi un compito per lei. Devo uccidere l'Aboleth, l'essere nella vasca ad Ust Natha. Ho accettato e tornerò nell'ostile città Drow.
+Adalon mi ha messo in guardia sui poteri psionici dell'Aboleth. Dovrei tenere gli occhi aperti nel caso ci fosse la possibilità di danneggiare la sua vasca in modo che non possa più tenerlo in vita.~
+@22   = ~Il compito è praticamente finito.~
+@23   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Ho persuaso Adalon a darmi un po' del suo sangue a condizione che esaudisca la sua richiesta. Devo uccidere l'Aboleth, l'essere nella vasca ad Ust Natha. Ho accettato e tornerò nell'ostile città Drow.
+Adalon mi ha messo in guardia sui poteri psionici dell'Aboleth. Dovrei tenere gli occhi aperti nel caso ci fosse la possibilità di danneggiare la sua vasca in modo che non possa più tenerlo in vita.~
+@24   = ~Allora io non ti aiuterò in questa questione, ma vi porterò ancora all'uscita. Preparatevi. Prima di restituirvi alla superficie devo prendere una forma più appropriata.~
+@25   = ~Ho esteso l'illusione cosicché durerà un altro giorno. Inoltre, potrai aggirarti nella città Drow inosservato. Sii preparato ai poteri psionici dell'Aboleth, e agli armati scagnozzi sotto la sua volontà. Non puoi uccidere l'Aboleth direttamente. Se non distruggi la sua vasca, puoi solo sperare di essere più forte di lui.~
+@26   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Adalon mi ha messo in guardia sui poteri psionici dell'Aboleth. Dovrei tenere gli occhi aperti nel caso ci fosse la possibilità di danneggiare la sua vasca in modo che non possa più tenerlo in vita. Questo ridurrebbe notevolmente la battaglia.~
+@27   = ~Hai il tuo compito. Torna quando l'avrai completato. Posso ancora sentire la presenza dell'Aboleth.~
+@28   = ~Purtroppo, ci ho ripensato. Io non ucciderò l'Aboleth.~
+@29   = ~Tornerò quando l'avrò completato.~
+@30   = ~Ci sei riuscito! Io non sento più la presenza dell'Aboleth. Ora a mia volta manterrò la promessa. Taglia qui nel mio artiglio e avrai il tuo sangue.~
+@31   = ~Ti ringrazio!~
+@32   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Io ho chiesto ad Adalon il suo aiuto nella questione dell'armatura del 'conciatore'. Dopo la mia spiegazione è stata pronta ad aiutarmi, a condizione che io completi un compito per lei. Devo uccidere l'Aboleth, l'essere nella vasca ad Ust Natha. Ho accettato e tornerò nell'ostile città Drow.
+Adalon mi ha messo in guardia sui poteri psionici dell'Aboleth. Dovrei tenere gli occhi aperti nel caso ci fosse la possibilità di danneggiare la sua vasca in modo che non possa più tenerlo in vita.~
+@33   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Ho ricevuto il sangue di Adalon. Ora dovrei essere in grado di trovare i clienti di Rejiek.~
+@34   = ~Magnifico! Dammelo.~
+@35   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Ho ricevuto il sangue di Adalon, senza prendere la sua vita.~
+@36   = ~Ti avverto, <CHARNAME>. Il sangue di un drago d'argento è una merce rara e preziosa. Usalo esclusivamente per gli scopi che ti sei proposto.~
+@37   = ~Lo farò. Hai i miei ringraziamenti, nobile creatura.~
+@38   = ~Prenderò a cuore il tuo avvertimento, Adalon.~
+@39   = ~Sì, senz'altro.~
+@40   = ~Ora vi porterò all'uscita. Preparatevi. Prima di restituirvi alla superficie devo prendere una forma più appropriata.~
+@41   = ~Tu osi!~
+@42   = ~Le uova del drago d'argento. 
+
+Ho, infine, riportato indietro ad Adalon le sue uova. Quando ho chiesto un po' del suo sangue, avrei dovuto dare una spiegazione, perché è diventata molto furiosa...~
+@43   = ~Che sta succedendo? Le mie uova sono in pericolo mentre parliamo!~
+@44   = ~Ho bisogno di un po' di sangue di drago d'argento. Potresti darmi un po' del tuo?~
+@45   = ~Oh molto bene. Adesso mi occuperò delle tue uova.~
+@46   = ~C'è un modo, comunque, “prima” riporta le mie uova. Poi parleremo ulteriormente della tua richiesta. Non discutere con me; questa è la mia decisione.~
+@47   = ~Come osi parlare così audacemente, figlio di Bhaal! Se non avessi bisogno di te, saresti morto! Va, e salva le mie uova!~
+@48   = ~Sei potente, <CHARNAME>, e le mie uova non sono più in pericolo. Tu vuoi un bene prezioso, considerato che vale per te.~
+@49   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Io ho chiesto ad Adalon il suo aiuto nella questione dell'armatura del 'conciatore'. Dopo la mia spiegazione è stata pronta ad aiutarmi, a condizione che io completi un compito per lei. Devo uccidere l'Aboleth, l'essere nella vasca ad Ust Natha. Ho accettato e tornerò nell'ostile città Drow.
+Adalon mi ha messo in guardia sui poteri psionici dell'Aboleth. Dovrei tenere gli occhi aperti nel caso ci fosse la possibilità di danneggiare la sua vasca in modo che non possa più tenerlo in vita.~
+@50   = ~Così sia. Sii preparato ai poteri psionici dell'Aboleth, e agli armati scagnozzi sotto la sua volontà. Non puoi uccidere l'Aboleth direttamente. Se non distruggi la sua vasca, puoi solo sperare di essere più forte di lui.~
+@51   = ~Ora per la tua richiesta. Ho ancora abbastanza tempo. Volevi un po' del mio sangue...~
+@52   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Io ho chiesto ad Adalon il suo aiuto nella questione dell'armatura del 'conciatore'. Dopo la mia spiegazione, lei era pronta aiutarmi affinché io eseguissi la sua richiesta. Quando ho rifiutato, lei ha ritirato la sua offerta.~
+@53   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Ho il consenso di Adalon che mi darà un po' del suo sangue se soddisferò la sua richiesta. Tuttavia, il compito era troppo per me da gestire. Quando ho respinto la sua offerta, lei ha ritirato la sua.~
+@54   = ~Come osi mentirmi in questo modo, essere malvagio!~
+@55   = ~Le uova del drago d'argento.
+
+Ho chiesto ad Adalon un po' del suo sangue... Forse avrei dovuto pensare ad una storia migliore perché lei ha visto oltre le mie menzogne ed è diventata abbastanza furiosa per la richiesta...~
+@56   = ~Quali menzogne racconti! Un essere della tua malizia non potrebbe mai avere un tale desiderio. Tu non otterrai mai il mio sangue in questo modo. Se la salvezza delle mie uova non dipendesse da te ti punirei per questo.~
+@57   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'.
+
+Ho deciso piuttosto di uccidere Adalon per ottenere il suo sangue, perché non ho voglia di tornare a Ust Natha. (Oggi, sono ancora deliziosamente maligno...)~
+@58   = ~Il sangue di... Che atto malvagio. Vorrei parlare con i vostri clienti, prima di consegnare altri ingredienti!~
+@59   = ~I miei clienti? Perché ti stai improvvisamente interessando a loro? Fornisci il sangue se vuoi avere l'armatura, niente altro.~
+@60   = ~L'armatura di cuoio di Rejiek lo 'scuoiatore'
+
+Ho trovato l'uomo nominato nella lettera che ho trovato a casa di Rejiek. Avevo ragione a sospettare che riguardasse un certo “Darcin Cole”. Ora l'uomo crede che io sia Rejiek. Lui finirà volontariamente l'armatura di cuoio per me se gli procuro il sangue di un drago d'argento! Vorrei giocare il suo gioco al fine di scoprire la sua clientela. Solo dove potrei ottenere il sangue di un drago d'argento senza doverlo uccidere?~
+@61   = ~Ad ogni modo ti sei interessato ai miei “clienti”. Ora, ho alcuni amici che vogliono parlare con te. Beh, non tanto “parlare” quanto uccidere.~
+@62   = ~L'armatura di cuoio di Rejiek lo 'scuoiatore'
+
+Ora, con i maghi morti, spero di aver fermato questa malvagia attività. Adesso devo disfarmi nel modo giusto di questa ripugnante armatura. Forse posso trovare aiuto in un tempio appropriato.~
+@63   = ~Sei venuto... tu sei venuto per uccidermi... Sì, lo vedo nei tuoi pensieri. Così Adalon ha trovato i suoi seguaci... Sei un'idiota! Mi credi indifeso? Mostratevi!~
+@64   = ~Credi di avermi sconfitto? Ora, vedremo! Posso anche avere un limitato numero di schiavi, ma sono sufficienti per distruggerti!~
+@65   = ~Cosa... Che cosa hai fatto! Mi hai sconfitto! Questo è impossibile... Impossibile...~
+@66   = ~Ma non morirò senza portarvi con me! Ora va a vedere come troverai la tua via d'uscita da questa città!~
+@67   = ~Cosa... che cosa è questo! Io sono fiacco... le mie forze sono esaurite... Tu mi hai sconfitto! Questo è impossibile... impossibile...~
+@68   = ~Finalmente... finalmente, io sono libero. Grazie a te!~
+@69   = ~Ho una richiesta... Vedete questa ripugnante armatura? È stata fatta con pelle umana. Potete prenderla e concedere pace agli scuoiati?~
+@70   = ~Che terribile atto! Lascia l'armatura a noi. Helm aiuterà le vittime a trovare la pace.~
+@71   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Ho lasciato l'armatura di pelle umana nelle mani dei sacerdoti di Helm. Speriamo che la gente tormentata possa trovare la propria pace.~
+@72   = ~Che terribile atto! Lascia l'armatura a noi. Oghma aiuterà le vittime a trovare la pace.~
+@73   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Ho lasciato l'armatura di pelle umana nelle mani dei sacerdoti di Oghma. Speriamo che la gente tormentata possa trovare la propria pace.~
+@74   = ~Che terribile atto! Lascia l'armatura a noi. Lathander aiuterà le vittime a trovare la pace.~
+@75   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Ho lasciato l'armatura di pelle umana nelle mani dei sacerdoti di Lathander. Speriamo che la gente tormentata possa trovare la propria pace.~
+@76   = ~Che terribile atto! Lascia l'armatura a noi. Ilmater aiuterà le vittime a trovare la pace.~
+@77   = ~Il sangue di drago d'argento per l'armatura dello 'scuoiatore'. 
+
+Ho lasciato l'armatura di pelle umana nelle mani dei sacerdoti di Ilmater. Speriamo che la gente tormentata possa trovare la propria pace.~
+@78   = ~Ho alcuni amici che vogliono parlare con te. Beh, non tanto “parlare” quanto uccidere.~ 
+@79   = ~Non posso fare quello che vuoi da me. La città drow è ostile, e le loro difese troppo forti.~

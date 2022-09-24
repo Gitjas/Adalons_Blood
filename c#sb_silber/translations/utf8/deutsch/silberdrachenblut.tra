@@ -1,0 +1,128 @@
+@0    = ~Ach, eine Bitte hätte ich noch, wenn so viel Zeit noch ist.~
+@1    = ~Aha. Fahrt fort.~
+@2    = ~Ich kümmere mich um Eure Eier, aber ich hätte noch eine Bitte, die nur Ihr mir erfüllen könnt...~
+@3    = ~Alles klar, schon unterwegs.~
+@4    = ~Was ist denn noch?!~
+@5    = ~Ich benötige etwas Silberdrachenblut. Bekomme ich Eures?~
+@6    = ~Ich habe ein Problem: In Athkatla deckte ich eine Mordserie auf, bei der ich einen Gerber als Täter enttarnte. Leider konnte er entkommen. Ich fand aber Hinweise darauf, dass er Auftraggeber hatte und eine Rüstung aus Menschenhaut erschaffen wollte. Ich würde diese Hintermänner gerne stellen, aber daran ist eine Bedingung geknüpft...~
+@7    = ~Ach, schon gut. Machen wir weiter. Ihr spracht davon, dass Ihr vielleicht ein paar Kreaturen bestrafen werdet...~
+@8    = ~Das Silberdrachenblut für die Rüstung des Häuters.
+
+Ich habe darauf verzichtet, Adalon um ihre Hilfe in der Sache mit der Rüstung des Häuters zu bitten. Mir erschien es einfach als zu abwegig, ein solch großartiges Wesen zu verletzen.~
+@9    = ~Ich habe ein Problem: In Athkatla deckte ich eine Mordserie auf, bei der ich einen Gerber als Täter enttarnte. Leider konnte er entkommen. Ich fand aber Hinweise darauf, dass er Auftraggeber hatte und eine Rüstung aus Menschenhaut erschaffen wollte. Daran ist eine Bedingung geknüpft...~
+@10   = ~Und warum erzählt Ihr mir das?~
+@11   = ~Das Problem ist, dass die Bedingung die Fertigstellung der Rüstung ist, um das Vertrauen des Auftraggebers zu gewinnen. Dazu muß ich ihm die fehlende Zutat liefern, die, ich sage es nur ungern, leider Silberdrachenblut ist. Versteht mich nicht falsch, ich möchte Euch nicht töten. Es ist Eure Entscheidung, ob Ihr mir helfen wollt oder nicht. Ich bin sicher, Ihr könntet mir etwas von Eurem Blut abgeben. Mich persönlich beunruhigt es jedenfalls, dass solche *Monster* in Menschengestalt frei herumlaufen dürfen...~
+@12   = ~Das Silberdrachenblut für die Rüstung des Häuters. 
+
+Ich habe darauf verzichtet, Adalon um ihre Hilfe in der Sache mit der Rüstung des Häuters zu bitten. Mir erschien es einfach als zu abwegig, ein solch großartiges Wesen zu verletzen.~
+@13   = ~Ihr wollt von *meinem* Blut?~
+@14   = ~Ich bin einverstanden unter der Vorraussetzung, dass Ihr noch einen Auftrag für mich erledigt. In der Drow Stadt gibt es einen Abolethen, ein abgrundtief böses Wesen, das mit seinen starken Psi-Kräften schon viel Unheil angerichtet hat. Ich wünsche, dass Ihr es tötet.~
+@15   = ~Fragt nicht nach Einzelheiten. Dies ist meine Bedingung.~
+@16   = ~Nein, das ist mir zuviel Arbeit.~
+@17   = ~Das Silberdrachenblut für die Rüstung des Häuters.
+
+Ich habe Adalon um ihre Hilfe in der Sache mit der Rüstung des Häuters gebeten. Nach meiner Erklärung war sie bereit, mir zu helfen, sofern ich vorher einen Auftrag ausführe. Als ich diesen Auftrag ablehnte, hat sie ihr Angebot leider zurückgezogen.~
+@18   = ~Das Silberdrachenblut für die Rüstung des Häuters.
+
+Ich hatte Adalon so weit, dass sie mir von ihrem Blut gegeben hätte, ohne dass ich sie töten muss, aber die Gegenleistung, die sie dafür haben wollte, war mir zu anstrengend. Als ich diesen Auftrag ablehnte, hat sie ihr Angebot leider zurückgezogen.~
+@19   = ~Ich soll in die Drowstadt zurück?! Eure Illusion ist verpufft und sie ist feindlich geworden!~
+@20   = ~Ich danke Euch. Die Aufgabe ist so gut wie erledigt.~
+@21   = ~Das Silberdrachenblut für die Rüstung des Häuters.
+
+Ich habe Adalon um ihre Hilfe in der Sache mit der Rüstung des Häuters gebeten. Nach meiner Erklärung war sie bereit, mir zu helfen, sofern ich vorher einen Auftrag ausführe. Ich soll Aboleth, das Wesen im Fischtank in Ust Natha, töten. Dazu muß ich natürlich nochmals zurück in die Drowstadt. Nun gut, ich habe zugestimmt.
+Adalon warnte mich vor den Psi-Kräften des Abolethen. Ich sollte die Augen offen halten, ob es eine Möglichkeit gibt, ihm das leben im Tank unmöglich zu machen. Das dürfte den zu erwartenden Kampf verkürzen.~
+@22   = ~Die Aufgabe ist so gut wie erledigt.~
+@23   = ~Das Silberdrachenblut für die Rüstung des Häuters.
+
+Ich habe Adalon tatsächlich überzeugen können, mir von ihrem Blut zu geben, wenn ich eine Aufgabe für sie erledige. Ich soll den Abolethen, das Wesen im Fischtank in Ust Natha, töten. Dazu muß ich natürlich nochmals zurück in die Drowstadt. Nun gut, ich habe zugestimmt.
+Adalon warnte mich vor den Psi-Kräften des Abolethen. Ich sollte die Augen offen halten, ob es eine Möglichkeit gibt, ihm das leben im Tank unmöglich zu machen. Das dürfte den zu erwartenden Kampf verkürzen.~
+@24   = ~Dann werde ich Euch in dieser Sache nicht helfen, sondern Euch nun zum Ausgang füren. Haltet Euch nun bereit. Ehe ich Euch auf den Weg zur Oberwelt bringe, muss ich mich jedoch in eine etwas geeignetere Form bringen.~
+@25   = ~Euer Zauber wird um einen Tag verlängert. Solange könnt Ihr weiterhin in der Stadt der Drow unbemerkt wandeln. Hütet Euch jedoch vor den Psi-Kräften des Abolethen, und seid gewappnet gegen die Helfer, die seinem Willen unterstehen. Ihr könnt den Abolethen nicht direkt töten. Wenn Ihr es nicht schafft, seinen Tank zu zerstören, besteht nur die Hoffnung, dass Eure Kräfte stärker sind als die seinen.~
+@26   = ~Das Silberdrachenblut für die Rüstung des Häuters.
+
+Adalon warnte mich vor den Psi-Kräften des Abolethen. Ich sollte die Augen offen halten, ob es eine Möglichkeit gibt, ihm das leben im Tank unmöglich zu machen. Das dürfte den zu erwartenden Kampf verkürzen.~
+@27   = ~Ihr habt Eure Aufgabe. Kehrt zurück, wenn sie erledigt ist. Noch spüre ich des Aboleths Präsenz.~
+@28   = ~Ach, ich habe es mir anders überlegt. Ich werde den Abolethen nicht töten.~
+@29   = ~Ich komme wieder, wenn es soweit ist.~
+@30   = ~Ihr habt Euren Auftrag ausgeführt. Ich spüre die Präsenz des Abolethen nicht mehr. Hier ist meine Kralle, schneidet hier oben, am Ansatz der Kralle ins Fleisch, und Ihr werdet Euer Blut bekommen.~
+@31   = ~Ich danke Euch!~
+@32   = ~Das Silberdrachenblut für die Rüstung des Häuters.
+
+Ich habe Adalon um ihre Hilfe in der Sache mit der Rüstung des Häuters gebeten. Nach meiner Erklärung war sie bereit, mir zu helfen, sofern ich vorher einen Auftrag ausführe. Ich soll Aboleth, das Wesen im Fischtank in Ust Natha, töten. Dazu muß ich natürlich nochmals zurück in die Drowstadt, die nun feindlich ist... Nun gut, ich habe zugestimmt.
+Adalon warnte mich vor den Psi-Kräften des Abolethen. Ich sollte die Augen offen halten, ob es eine Möglichkeit gibt, ihm das leben im Tank unmöglich zu machen. Das dürfte den zu erwartenden Kampf verkürzen.~
+@33   = ~Das Silberdrachenblut für die Rüstung des Häuters. 
+
+Ich habe Adalons Blut erhalten. Schon bald kann ich die Hintermänner dieses Mörders Rejiek stellen.~
+@34   = ~Schick! Gebt her!~
+@35   = ~Das Silberdrachenblut für die Rüstung des Häuters.
+
+Ich habe Adalons Blut erhalten, ohne das ich sie dafür töten musste.~
+@36   = ~Ich warne Euch, <CHARNAME>. Das Blut eines Silberdrachen ist eine seltene Kostbarkeit. Verwendet es nur für den guten Zweck, den Ihr im Sinne hattet.~
+@37   = ~Das werde ich. Habt Dank, edle Kreatur.~
+@38   = ~Ich werde Eure Warnung beherzigen, Adalon.~
+@39   = ~Jaja, sicher.~
+@40   = ~Ich werde Euch nun zum Ausgang füren. Haltet Euch bereit. Ehe ich Euch auf den Weg zur Oberwelt bringe, muss ich mich jedoch in eine etwas geeignetere Form bringen.~
+@41   = ~Ihr wagt es!~
+@42   = ~Die Eier des Silberdrachens. 
+
+Ich habe Adalons zwar ihre Eier zurück gebracht, aber als ich um etwas von ihrem Blut gebeten habe, hätte ich vielleicht eine Erklärung dazu abgeben sollen, denn auf meine Frage hin wurde sie ziemlich wütend...~
+@43   = ~Was ist denn noch? Meine Eier sind in Gefahr, während wir hier reden!~
+@44   = ~Ich benötige etwas Silberdrachenblut. Gebt Ihr mir von Eurem?~
+@45   = ~Ach, schon gut. Ich werde mich jetzt um Eure Eier kümmern.~
+@46   = ~Ich sehe eine Möglichkeit, doch bringt mir *erst* meine Eier. Dann werden wir weiter über Eure Bitte sprechen. Keine Widerrede, dies ist meine Entscheidung.~
+@47   = ~Wie soll ich diese dreisten Worte verstehen, Bhaalkind! Wenn ich Euch nicht so dringend bräuchte, wärt Ihr jetzt tot! Geht, und rettet meine Eier!~
+@48   = ~Ihr seid mächtig, <CHARNAME>, und meine Eier sind nicht länger in Gefahr. Ihr wollt ein kostbares Gut, überlegt Euch, was es Euch wert ist.~
+@49   = ~Das Silberdrachenblut für die Rüstung des Häuters.
+
+Ich habe Adalon tatsächlich überzeugen können, mir von ihrem Blut zu geben, wenn ich eine Aufgabe für sie erledige. Ich soll den Abolethen, das Wesen im Fischtank in Ust Natha, töten. Dazu muß ich natürlich nochmals zurück in die Drowstadt, die nun feindlich ist... Nun gut, ich habe zugestimmt.
+Adalon warnte mich vor den Psi-Kräften des Abolethen. Ich sollte die Augen offen halten, ob es eine Möglichkeit gibt, ihm das leben im Tank unmöglich zu machen. Das dürfte den zu erwartenden Kampf verkürzen.~
+@50   = ~So sei es. Hütet Euch jedoch vor den Psi-Kräften des Abolethen, und seid gewappnet gegen die Helfer, die seinem Willen unterstehen. Ihr könnt den Abolethen nicht direkt töten. Wenn Ihr es nicht schafft, seinen Tank zu zerstören, besteht nur die Hoffnung, dass Eure Kräfte stärker sind als die seinen.~
+@51   = ~Nun aber zu Eurer Bitte. So viel Zeit habe ich noch. Ihr wolltet von meinem Blut...~
+@52   = ~Das Silberdrachenblut für die Rüstung des Häuters. 
+
+Ich habe Adalon um ihre Hilfe in der Sache mit der Rüstung des Häuters gebeten. Nach meiner Erklärung war sie bereit, mir zu helfen, sofern ich vorher einen Auftrag ausführe. Als ich diesen Auftrag ablehnte, hat sie ihr Angebot leider zurückgezogen.~
+@53   = ~Das Silberdrachenblut für die Rüstung des Häuters.
+
+Ich hatte Adalon so weit, dass sie mir von ihrem Blut gegeben hätte, ohne dass ich sie töten muss, aber die Gegenleistung, die sie dafür haben wollte, war mir zu anstrengend. Als ich diesen Auftrag ablehnte, hat sie ihr Angebot leider zurückgezogen.~
+@54   = ~Ihr wagt es, mich so anzuschwindeln, böses Wesen!~
+@55   = ~Die Eier des Silberdrachens.
+
+Ich habe Adalon um etwas von ihrem Blut gebeten... Vielleicht hätte ich mir mehr Mühe geben sollen, denn sie durchschaute meine Lüge und wurde auf meine Frage hin ziemlich wütend...~
+@56   = ~Was lügt Ihr hier zusammen! Niemals kann ein Wesen Eurer Bosheit ein solches Verlangen haben. Ihr werdet auf diese Weise nicht an mein Blut kommen. Ich würde Euch für diese Lüge zerschmettern, wäre ich nicht so sehr von Euch abhängig.~
+@57   = ~Das Silberdrachenblut für die Rüstung des Häuters.
+
+Ich habe mich dazu entschlossen, doch lieber Adalon zu töten, um an ihr Blut zu kommen, da mir der Rückweg nach Ust-Natha zu weit war. (Hehehe, ich bin heute wieder herrlich gemein...)~
+@58   = ~Das Blut eines... Welch böse Tat. Ich möchte mit Euren Auftraggebern sprechen, bevor ich weitere Zutaten liefere!~
+@59   = ~Meine Auftraggeber? Wieso interessiert Ihr Euch plötzlich für die? Bringt mir das Blut, wenn Ihr die Rüstung haben wollt, vorher passiert hier nichts.~
+@60   = ~Der Lederpanzer von Rejiek dem Häuter
+
+Ich habe den Mann gefunden, der in dem Brief aus Rejieks Zuhause erwähnt wurde. Offenbar habe ich mit meiner Vermutung, dass es sich um einen gewissen Darcin Cole handelt, Recht gehabt. Der Mann glaubt nun, dass ich Rejiek bin. Ich habe ihn in dem Glauben gelassen, dass er für mich den Lederpanzer fertigstellen soll, und er hat sich bereit erklärt, wenn ich ihm das Blut eines Silberdrachen beschaffe! Ich muss an die Auftraggeber dieser bösen Tat herankommen, deshalb werde ich ersteinmal sein Spiel mitspielen. Wo bekomme ich nur das Blut eines Silberdrachens her, ohne diesen zu töten?~
+@61   = ~Ihr habt Euch ja ohnehin für meine "Auftraggeber" interessiert. Nun, ich habe da ein paar Bekannte, die Euch gerne sprechen würden. Nun ja, nicht so sehr sprechen, als vielmehr töten.~
+@62   = ~Der Lederpanzer von Rejiek dem Häuter.
+
+Nun, da die Zauberer tot sind, habe ich hoffentlich dem bösen Treiben Einhalt geboten. Jetzt muss ich nur noch diese abscheuliche Rüstung entsorgen. Vielleicht finde ich in einem entsprechenden Tempel Hilfe.~
+@63   = ~Ihr kommt... Ihr kommt um mich zu töten... Ja, ich sehe es in Euren Gedanken. Hat Adalon ihre Schergen gefunden... Narren seid Ihr! Glaubt Ihr, Ihr findet mich wehrlos? Seht selbst!~
+@64   = ~Ihr glaubt, Ihr hättet mich besiegt? Nun, seht her! Die Zahl meiner Untergebenen ist zwar begrenzt, aber sie reicht aus, um Euch zu vernichten!~
+@65   = ~Was... was habt Ihr getan! Ihr habt mich besiegt! Das ist unmöglich... unmöglich...~
+@66   = ~Aber ich sterbe nicht, ohne Euch mit ins Verderben zu nehmen. Seht, wie Ihr Euren Weg aus der Stadt findet!~
+@67   = ~Was... was ist das! Ich bin träge geworden, und meine Kräfte sind verbraucht. Ihr habt mich besiegt! Das ist unmöglich... unmöglich...~
+@68   = ~Endlich... endlich bin ich frei. Ich danke Euch!~
+@69   = ~Ich habe eine Bitte... Seht hier diese grässliche Rüstung, sie ist aus Menschenhaut. Könnt Ihr sie nehmen und den getöteten Menschen Frieden verschaffen?~
+@70   = ~Was für Zeugnis furchtbarer Taten! Gebt sie in unsere Hände, Helm wird den Opfern zum Frieden verhelfen.~
+@71   = ~Das Silberdrachenblut für die Rüstung des Häuters. 
+
+Ich habe die Menschenhautrüstung in die Hände der Priester von Helm gegeben. Hoffentlich finden die gepeinigten Menschen nun ihre Ruhe.~
+@72   = ~Was für Zeugnis furchtbarer Taten! Gebt sie in unsere Hände, Oghma wird den Opfern zum Frieden verhelfen.~
+@73   = ~Das Silberdrachenblut für die Rüstung des Häuters. 
+
+Ich habe die Menschenhautrüstung in die Hände der Priester von Oghma gegeben. Hoffentlich finden die gepeinigten Menschen nun ihre Ruhe.~
+@74   = ~Was für Zeugnis furchtbarer Taten! Gebt sie in unsere Hände, Lathander wird den Opfern zum Frieden verhelfen.~
+@75   = ~Das Silberdrachenblut für die Rüstung des Häuters. 
+
+Ich habe die Menschenhautrüstung in die Hände der Priester von Lathander gegeben. Hoffentlich finden die gepeinigten Menschen nun ihre Ruhe.~
+@76   = ~Was für Zeugnis furchtbarer Taten! Gebt sie in unsere Hände, Ilmater wird den Opfern zum Frieden verhelfen.~
+@77   = ~Das Silberdrachenblut für die Rüstung des Häuters. 
+
+Ich habe die Menschenhautrüstung in die Hände der Priester von Ilmater gegeben. Hoffentlich finden die gepeinigten Menschen nun ihre Ruhe.~
+@78   = ~Ich habe da ein paar Bekannte, die Euch gerne sprechen würden, Nun ja, nicht so sehr sprechen, als vielmehr töten.~
+@79   = ~Ich kann den Auftrag nicht erledigen... Die Stadt ist feindlich, und wird zu gut bewacht.~

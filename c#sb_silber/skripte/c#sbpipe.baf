@@ -1,0 +1,63 @@
+IF
+	Clicked([ANYONE])
+	Global("C#SB_AbolethKampf","GLOBAL",0)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@0)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	!Global("C#SB_AbolethKampf","GLOBAL",0)
+	OR(2)
+		Dead("C#SBABOL")
+		GlobalGT("C#SB_AbolethGibtAuf","GLOBAL",0)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@0)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	!Global("C#SB_AbolethKampf","GLOBAL",0)
+	Global("C#SB_RohreKaputtMachen","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_RohreKaputtMachen","GLOBAL",1)
+		DisplayString(Myself,@1)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	Global("C#SB_RohreKaputtMachen","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("C#SB_RohreKaputtMachen","GLOBAL",2)
+		SetGlobal("C#SB_AbolethGibtAuf","GLOBAL",1)
+		RealSetGlobalTimer("C#SB_AbolethGibtAufTimer","GLOBAL",4)
+		DisplayString(Myself,@2)
+END
+
+IF
+	Clicked([ANYONE])
+	Global("C#SB_RohreKaputtMachen","GLOBAL",2)
+	!Global("C#SB_AbolethKampf","GLOBAL",0)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@3)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,12)
+	GlobalLT("C#SB_RohreKaputtMachen","GLOBAL",2)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@4)
+END
+
+
+
