@@ -1,35 +1,26 @@
 
 BACKUP ~C#SB_silber/backup~
-AUTHOR ~jastey@web.de~ 
+AUTHOR ~https://baldurs-gate.de/index.php?resources/adalons-blood-silberdrachenblutmod.5/~ 
 
-VERSION ~14~ //170611
+VERSION ~15~ //220924
 
-README ~C#SB_silber/readme.%LANGUAGE%.txt~ ~C#SB_silber/readme.english.txt~
+README ~C#SB_silber/readme.sb_silver.%LANGUAGE%.html~
+~C#SB_silber/readme.%LANGUAGE%.txt~ ~C#SB_silber/readme.sb_silver.english.html~
 
 
 AUTO_TRA ~C#SB_silber/translations/%s~
 
-
-/* handling of text formats. This is old code. Use HANDLE_CHARSETS instead. */
 ALWAYS
+ ACTION_DEFINE_ARRAY c#noconvert BEGIN setup END
 
-/* This is outdated. Use HANDLE_CHARSETS for tra-formatting, instead */
-
-  ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
-  /*
-   * Copies UTF8-encoded tra files over the normal ones, for use with AUTO_TRA
-   */
-  DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
-    COPY ~C#SB_silber/translations/utf8/%LANGUAGE%~  ~C#SB_silber/translations/%LANGUAGE%~
-  END
-  LAF autotra_workaround END
-
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charsets = 1
+    STR_VAR
+      tra_path = EVAL ~c#sb_silber\translations\~
+      noconvert_array = c#noconvert
   END
 END
-
-
-
-
 
 
 
@@ -49,12 +40,22 @@ LANGUAGE ~Castellano (Traducido por Clan REO)~  ~spanish~
          ~C#SB_silber/translations/spanish/setup.tra~
 
 LANGUAGE ~Russian (Austin & AERIE Team)~  ~russian~
-         ~C#SB_silber/translations/russian/setup.tra~
+         ~C#SB_silber/translations/english/setup.tra~
 
 LANGUAGE ~Polski~  ~polish~
          ~C#SB_silber/translations/polish/setup.tra~
 
+LANGUAGE ~Czech (by Edvin)~  ~czech~
+         ~C#SB_silber/translations/czech/setup.tra~
+
+
 BEGIN @0
+DESIGNATED 0
+LABEL ~AdalonsBlood-main~
+REQUIRE_PREDICATE GAME_IS ~bgt bg2ee tob eet~ @184
+FORBID_COMPONENT ~EET_end.tp2~ ~0~ @185
+FORBID_COMPONENT ~EET_end.tp2~ ~1~ @185
+
 
 
 ADD_JOURNAL EXISTING TITLE (#74382) @8 @12 @17 @18 @21 @23 @26 @32 @33 @35 @49 @52 @53 @57 @60 @62 @71 @73 @75 @77 USING ~C#SB_silber/translations/%LANGUAGE%/silberdrachenblut.tra~
@@ -229,14 +230,17 @@ WRITE_SHORT (~%vertiOff%~ + ~%#ofVerti%~ * 4 + 196 + 14) 3251
 //as well as add new points, AS LONG AS EVERYTHING FOLLOWS THE PATTERN!
 
 COPY_EXISTING ~baldur.bcs~ ~override~
-DECOMPILE_BCS_TO_BAF
-
-/*Adds a trigger variable to the "udEscape" timer so the turning hostile of Ust Natha can be triggered by the mod:*/
-REPLACE_TEXTUALLY ~\(GlobalTimerExpired("udEscape","GLOBAL")\)~
-~\1 Global("C#SB_DrowCityHostile","GLOBAL",1)~
-COMPILE_BAF_TO_BCS
-BUT_ONLY_IF_IT_CHANGES
-
+	DECOMPILE_AND_PATCH BEGIN
+		SPRINT textToReplace ~\(GlobalTimerExpired("udEscape","GLOBAL")\)~
+		COUNT_REGEXP_INSTANCES ~%textToReplace%~ num_matches
+		PATCH_IF (num_matches > 0) BEGIN
+			REPLACE_TEXTUALLY ~%textToReplace%~ ~\1 Global("C#SB_DrowCityHostile","GLOBAL",1)~ 
+			PATCH_PRINT ~Patching: %num_matches% matches found in %SOURCE_FILESPEC% for REPLACE_TEXTUALLY: %textToReplace%~
+		END ELSE BEGIN
+			PATCH_WARN ~WARNING: could not find %textToReplace% in %SOURCE_FILESPEC%~
+		END
+	END
+BUT_ONLY
 
 
 

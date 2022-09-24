@@ -1,2 +1,7 @@
 @0 = ~Il Sangue di Adalon – Modificato per BGII da Gandalf the white~
 
+/* new for v15 */
+@184  = ~This mod is not compatible with this game.~
+@185  = ~This mod needs to be installed before EET_End.~
+
+

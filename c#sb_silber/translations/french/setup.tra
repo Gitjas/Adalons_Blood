@@ -1,1 +1,5 @@
 @0 = ~Adalon's Blood - Modification pour BGII par Gandalf the white~
+
+/* new for v15 */
+@184 = ~Ce mod n'est pas compatible avec ce jeu.~
+@185  = ~Ce mod doit etre installe avant EET_End.~ 

@@ -1,2 +1,6 @@
 @0 = ~Silberdrachenblut - Quest Add-On von Gandalf the white~
 
+/* new for v15 */
+@184  = ~Die Mod ist nicht mit diesem Spiel kompatibel.~
+@185  = ~Die Mod muss vor EET_End installiert werden.~
+
