@@ -48,6 +48,8 @@ LANGUAGE ~Polski~  ~polish~
 LANGUAGE ~Czech (by Edvin)~  ~czech~
          ~C#SB_silber/translations/czech/setup.tra~
 
+LANGUAGE ~Chinese~  ~Schinese~
+         ~C#SB_silber/translations/schinese/setup.tra~
 
 BEGIN @0
 DESIGNATED 0
