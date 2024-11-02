@@ -1,5 +1,5 @@
 ADD_TRANS_TRIGGER UDSILVER 45 ~OR(3) Global("C#SilberdrachenblutQuestTod","GLOBAL",1)
-Global("TalkedToTanally1","GLOBAL",0)
+!Global("TalkedToTanally1","GLOBAL",1)
 Dead("TANALLY1")~
 
 ADD_TRANS_TRIGGER UDSILVER 52 ~OR(4)
@@ -331,22 +331,22 @@ END
 
 
 EXTEND_BOTTOM HELMPR 0
-+ ~PartyHasItem("LEAT21") Global("C#SB_BlutVonAdalon","GLOBAL",1)
++ ~PartyHasItem("LEAT21") 
 !Alignment(Player1,MASK_EVIL)~ + @69 + haut_entsorgen
 END
 
 EXTEND_BOTTOM DOGHMA 0
-+ ~PartyHasItem("LEAT21") Global("C#SB_BlutVonAdalon","GLOBAL",1)
++ ~PartyHasItem("LEAT21") 
 !Alignment(Player1,MASK_EVIL)~ + @69 + haut_entsorgen
 END
 
 EXTEND_BOTTOM DAWNMAS 0
-+ ~PartyHasItem("LEAT21") Global("C#SB_BlutVonAdalon","GLOBAL",1)
++ ~PartyHasItem("LEAT21") 
 !Alignment(Player1,MASK_EVIL)~ + @69 + haut_entsorgen
 END
 
 EXTEND_BOTTOM SLILMAT 0
-+ ~PartyHasItem("LEAT21") Global("C#SB_BlutVonAdalon","GLOBAL",1)
++ ~PartyHasItem("LEAT21") 
 !Alignment(Player1,MASK_EVIL)~ + @69 + haut_entsorgen
 END
 
