@@ -94,11 +94,11 @@ I have asked Adalon for some of her blood... Maybe I should have thought of a be
 I have resolved to kill Adalon to get her blood, because I did not feel like returning to Ust Natha. (Today, I am again delightfully malicious...)~
 @58   = ~The blood of... What an evil deed. I would like to speak with your clients, before I deliver other ingredients!~
 @59   = ~My clients? Why you are suddenly interested in them? You provide the blood if you want to have the armor, nothing more.~
-@60   = ~The leather armor of Rejiek the skinner
+@60   = ~Finish the leather armor begun by Rejiek Hidesman
 
 I have found the man who was mentioned in the letter from Rejiek's home. I was right in suspecting that it concerns a certain Darcin Cole. Now the man believes that I am Rejiek. He volunteered to finish the leather armor for me if I procure the blood of a silver dragon for him!  I will play his game in order to discover his clientele. Only where do I get the blood of a silver dragon without having to kill it?~
 @61   = ~Anyway you have been interested in my "clients". Now, I have a few friends who would like to speak to you. Well, not so much 'speak' as kill.~
-@62   = ~The leather armor of Rejiek the skinner
+@62   = ~Finish the leather armor begun by Rejiek Hidesman
 
 Now with the magicians dead, hopefully I have stopped the evil activity. Now I must dispose of this hideous armor properly. Maybe I can find help in a suitable temple.~
 @63   = ~You come... you come to kill me... Yes, I see it in your thoughts. So Adalon has found her henchmen... You are fools! Do you believe me defenseless? See for yourselves!~
@@ -109,20 +109,21 @@ Now with the magicians dead, hopefully I have stopped the evil activity. Now I m
 @68   = ~Finally... finally, I am free. I thank you!~
 @69   = ~I have a request... See this hideous armor? It was made from human skin. Can you take it and grant the skinned peace?~
 @70   = ~What a dreadful deed! Leave the armor with us. Helm will help the victims find peace.~
-@71   = ~The silver dragon blood for the armor of the skinner. 
+@71   = ~Finish the leather armor begun by Rejiek Hidesman 
 
 I have left the human skin armament in the hands of the priests of Helm. Hopefully the tormented people can find their peace.~
 @72   = ~What a dreadful deed! Leave the armor with us. Oghma will help the victims find peace.~
-@73   = ~The silver dragon blood for the armor of the skinner. 
+@73   = ~Finish the leather armor begun by Rejiek Hidesman 
 
 I have left the human skin armor in the hands of the priests of Oghma. Hopefully the tormented people can find their peace.~
 @74   = ~What a dreadful deed! Leave the armor with us. Lathander will help the victims find peace.~
-@75   = ~The silver dragon blood for the armor of the skinner. 
+@75   = ~Finish the leather armor begun by Rejiek Hidesman 
 
 I have left the human skin armor in the hands of the priests of Lathander. Hopefully the tormented people can find their peace.~
 @76   = ~What a dreadful deed! Leave the armor with us. Ilmater will help the victims find peace.~
-@77   = ~The silver dragon blood for the armor of the skinner. 
+@77   = ~Finish the leather armor begun by Rejiek Hidesman 
 
 I have left the human skin armor in the hands of the priests of Ilmater. Hopefully the tormented people can find their peace.~
 @78   = ~I have a few friends there who would like to speak with you. Well, not so much 'speak' as kill.~ 
 @79   = ~I cannot do what you want from me. The drow city is hostile, and their defences too strong.~
+@80   = ~I have a request... Do you see this hideous tunic? It was made from human skin. I know there's more to it, and I could probably use it to try and find the killers, but I'd like to just leave it with you and give the souls peace. Can you take it and grant peace to the flayed?~

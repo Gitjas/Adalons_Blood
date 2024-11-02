@@ -332,31 +332,81 @@ END
 
 EXTEND_BOTTOM HELMPR 0
 + ~PartyHasItem("LEAT21") 
-!Alignment(Player1,MASK_EVIL)~ + @69 + haut_entsorgen
+!Alignment(Player1,MASK_EVIL)~ + @69 DO ~TakePartyItem("LEAT21")
+           DestroyItem("LEAT21") EraseJournalEntry(@62)
+AddexperienceParty(28800)~ + haut_entsorgen
++ ~PartyHasItem("LEAT22") 
+!Alignment(Player1,MASK_EVIL)~ + @80 DO ~TakePartyItem("LEAT22")
+           DestroyItem("LEAT22") EraseJournalEntry(23562)
+EraseJournalEntry(@21)
+EraseJournalEntry(@23)
+EraseJournalEntry(@26)
+EraseJournalEntry(@32)
+EraseJournalEntry(@33)
+EraseJournalEntry(@49)
+EraseJournalEntry(@62)
+AddexperienceParty(28800)~ + haut_entsorgen
 END
 
 EXTEND_BOTTOM DOGHMA 0
 + ~PartyHasItem("LEAT21") 
-!Alignment(Player1,MASK_EVIL)~ + @69 + haut_entsorgen
+!Alignment(Player1,MASK_EVIL)~ + @69 DO ~TakePartyItem("LEAT21")
+           DestroyItem("LEAT21") EraseJournalEntry(@62)
+AddexperienceParty(28800)~ + haut_entsorgen
++ ~PartyHasItem("LEAT22") 
+!Alignment(Player1,MASK_EVIL)~ + @80 DO ~TakePartyItem("LEAT22")
+           DestroyItem("LEAT22") EraseJournalEntry(23562)
+EraseJournalEntry(@21)
+EraseJournalEntry(@23)
+EraseJournalEntry(@26)
+EraseJournalEntry(@32)
+EraseJournalEntry(@33)
+EraseJournalEntry(@49)
+EraseJournalEntry(@62)
+AddexperienceParty(28800)~ + haut_entsorgen
 END
 
 EXTEND_BOTTOM DAWNMAS 0
 + ~PartyHasItem("LEAT21") 
-!Alignment(Player1,MASK_EVIL)~ + @69 + haut_entsorgen
+!Alignment(Player1,MASK_EVIL)~ + @69 DO ~TakePartyItem("LEAT21")
+           DestroyItem("LEAT21") EraseJournalEntry(@62)
+AddexperienceParty(28800)~ + haut_entsorgen
++ ~PartyHasItem("LEAT22") 
+!Alignment(Player1,MASK_EVIL)~ + @80 DO ~TakePartyItem("LEAT22")
+           DestroyItem("LEAT22") EraseJournalEntry(23562)
+EraseJournalEntry(@21)
+EraseJournalEntry(@23)
+EraseJournalEntry(@26)
+EraseJournalEntry(@32)
+EraseJournalEntry(@33)
+EraseJournalEntry(@49)
+EraseJournalEntry(@62)
+AddexperienceParty(28800)~ + haut_entsorgen
 END
 
 EXTEND_BOTTOM SLILMAT 0
 + ~PartyHasItem("LEAT21") 
-!Alignment(Player1,MASK_EVIL)~ + @69 + haut_entsorgen
+!Alignment(Player1,MASK_EVIL)~ + @69 DO ~TakePartyItem("LEAT21")
+           DestroyItem("LEAT21") EraseJournalEntry(@62)
+AddexperienceParty(28800)~ + haut_entsorgen
++ ~PartyHasItem("LEAT22") 
+!Alignment(Player1,MASK_EVIL)~ + @80 DO ~TakePartyItem("LEAT22")
+           DestroyItem("LEAT22") EraseJournalEntry(23562)
+EraseJournalEntry(@21)
+EraseJournalEntry(@23)
+EraseJournalEntry(@26)
+EraseJournalEntry(@32)
+EraseJournalEntry(@33)
+EraseJournalEntry(@49)
+EraseJournalEntry(@62)
+AddexperienceParty(28800)~ + haut_entsorgen
 END
 
 APPEND HELMPR
 
 IF ~~ THEN haut_entsorgen
 SAY @70
-IF ~~ THEN DO ~TakePartyItem("LEAT21")
-           DestroyItem("LEAT21") EraseJournalEntry(@62)
-AddexperienceParty(28800)~ SOLVED_JOURNAL @71  EXIT
+IF ~~ THEN SOLVED_JOURNAL @71  EXIT
 END
 END
 
