@@ -3,48 +3,48 @@
                      autorstwa: Gandalf the white; kod autorstwa: jastey
 
 
-Adalon's Blood umo¿liwia graczom opcjê poproszenia smoczycy Adalon o odrobinê jej krwi celem zakoñczenia questów z morderstwami w Dzielnicy Mostów bez potrzeby zabijania jej. Mod ma na celu przede wszystkim umo¿liwienie dobrym bohaterom ukoñczenie zadania w "dobry" sposób: poprzez odkrycie to¿samoœci klientów grabarza i oczyszczenie pancerza w œwi¹tyni. 
-Niemniej jednak, z³e postaci z Charyzm¹ na poziomie 18 lub wy¿ej mog¹ równie¿ podejmowaæ próby przekonania Adalon do u¿yczenia im swojej krwi. Istnieje 25% szans na to, i¿ zdo³aj¹ oni oszukaæ srebrn¹ smoczycê.
+Adalon's Blood umoÂ¿liwia graczom opcjÃª poproszenia smoczycy Adalon o odrobinÃª jej krwi celem zakoÃ±czenia questÃ³w z morderstwami w Dzielnicy MostÃ³w bez potrzeby zabijania jej. Mod ma na celu przede wszystkim umoÂ¿liwienie dobrym bohaterom ukoÃ±czenie zadania w "dobry" sposÃ³b: poprzez odkrycie toÂ¿samoÅ“ci klientÃ³w grabarza i oczyszczenie pancerza w Å“wiÂ¹tyni. 
+Niemniej jednak, zÂ³e postaci z CharyzmÂ¹ na poziomie 18 lub wyÂ¿ej mogÂ¹ rÃ³wnieÂ¿ podejmowaÃ¦ prÃ³by przekonania Adalon do uÂ¿yczenia im swojej krwi. Istnieje 25% szans na to, iÂ¿ zdoÂ³ajÂ¹ oni oszukaÃ¦ srebrnÂ¹ smoczycÃª.
 
-Nie musisz rozpoczynaæ nowej gry by skorzystaæ z zawartoœci tej modyfikacji. Wszelako, aby móc z niej skorzystaæ, si³¹ rzeczy musi ona zostaæ zainstalowana *zanim* postaæ gracza przyniesie smoczycy jej jajka. 
-Wiêcej treœci mo¿na zobaczyæ, je¿eli mod zostanie zainstalowany *przed* pierwszym spotkaniem z Faelem na Wzgórzach Umar.
-Je¿eli mod zosta³ zainstalowany przed pierwsz¹ wizyt¹ w mieœcie Drowów, umo¿liwi on równie¿ inny (oprócz walki), dodatkowy sposób na pokonanie Aboletha.
+Nie musisz rozpoczynaÃ¦ nowej gry by skorzystaÃ¦ z zawartoÅ“ci tej modyfikacji. Wszelako, aby mÃ³c z niej skorzystaÃ¦, siÂ³Â¹ rzeczy musi ona zostaÃ¦ zainstalowana *zanim* postaÃ¦ gracza przyniesie smoczycy jej jajka. 
+WiÃªcej treÅ“ci moÂ¿na zobaczyÃ¦, jeÂ¿eli mod zostanie zainstalowany *przed* pierwszym spotkaniem z Faelem na WzgÃ³rzach Umar.
+JeÂ¿eli mod zostaÂ³ zainstalowany przed pierwszÂ¹ wizytÂ¹ w mieÅ“cie DrowÃ³w, umoÂ¿liwi on rÃ³wnieÂ¿ inny (oprÃ³cz walki), dodatkowy sposÃ³b na pokonanie Aboletha.
 
 
-SK£ADNIKI
+SKÂ£ADNIKI
 
-+ Nowy dialog z Faelem który pozwoli dobrym postaciom na zaakceptowanie zadania o zdobyciu krwi srebrnego smoka bez koniecznoœci zabicia go
-+ Nowy dialog ze smoczyc¹ Adalon który pozwala postaci gracza poprosiæ j¹ o odrobinê swojej krwi
-+ Walka z Abolethem w Usth Natha (po zwróceniu Adalon jej jajek)
-+ Dodana mo¿liwoœæ zwrócenia pancerza z ludzkiej skóry w œwi¹tyni.
++ Nowy dialog z Faelem ktÃ³ry pozwoli dobrym postaciom na zaakceptowanie zadania o zdobyciu krwi srebrnego smoka bez koniecznoÅ“ci zabicia go
++ Nowy dialog ze smoczycÂ¹ Adalon ktÃ³ry pozwala postaci gracza poprosiÃ¦ jÂ¹ o odrobinÃª swojej krwi
++ Walka z Abolethem w Usth Natha (po zwrÃ³ceniu Adalon jej jajek)
++ Dodana moÂ¿liwoÅ“Ã¦ zwrÃ³cenia pancerza z ludzkiej skÃ³ry w Å“wiÂ¹tyni.
 
 
 INSTALACJA
  
-Ogólne (Windows, Mac OS X, and Linux)
-Upewnij siê ¿e wykona³eœ kopiê zapasow¹ pliku dialog.tlk (oraz dialogf.tlk, jeœli taki istnieje), tak, na wszelki wypadek. Wypakuj zawartoœæ archiwum do g³ównego folderu z gr¹. 
+OgÃ³lne (Windows, Mac OS X, and Linux)
+Upewnij siÃª Â¿e wykonaÂ³eÅ“ kopiÃª zapasowÂ¹ pliku dialog.tlk (oraz dialogf.tlk, jeÅ“li taki istnieje), tak, na wszelki wypadek. Wypakuj zawartoÅ“Ã¦ archiwum do gÂ³Ã³wnego folderu z grÂ¹. 
 
-Je¿eli wczeœniej instalowa³eœ ju¿ tego moda upewnij siê, ¿e usun¹³eœ jego poprzedni¹ wersjê przed instalacj¹ aktualnej. Aby tego dokonaæ, odinstaluj wszystkie uprzednio zainstalowane komponenty i usuñ folder modyfikacji wraz z odpowiadaj¹cym jej plikiem wykonawczym w g³ównym folderze gry. 
+JeÂ¿eli wczeÅ“niej instalowaÂ³eÅ“ juÂ¿ tego moda upewnij siÃª, Â¿e usunÂ¹Â³eÅ“ jego poprzedniÂ¹ wersjÃª przed instalacjÂ¹ aktualnej. Aby tego dokonaÃ¦, odinstaluj wszystkie uprzednio zainstalowane komponenty i usuÃ± folder modyfikacji wraz z odpowiadajÂ¹cym jej plikiem wykonawczym w gÂ³Ã³wnym folderze gry. 
 
-Uwaga: instaluj¹c lub odinstalowuj¹c mod nigdy nie zamykaj okienka DOSa poprzez naciœniêcie klawisza X! Zamiast tego, naciœnij Enter w momencie, w którym instalator ciê o to poprosi.
+Uwaga: instalujÂ¹c lub odinstalowujÂ¹c mod nigdy nie zamykaj okienka DOSa poprzez naciÅ“niÃªcie klawisza X! Zamiast tego, naciÅ“nij Enter w momencie, w ktÃ³rym instalator ciÃª o to poprosi.
 
-Chc¹c zainstalowaæ moda, pod¹¿aj za nastêpuj¹c¹ instrukcj¹:
+ChcÂ¹c zainstalowaÃ¦ moda, podÂ¹Â¿aj za nastÃªpujÂ¹cÂ¹ instrukcjÂ¹:
 
 Windows
-Po rozpakowaniu archiwum, powinien istnieæ folder "c#sb_silber" oraz plik "setup-c#sb_silber.exe" w g³ównym folderze gry. Uruchom aplikacjê setup-c#sb_silber.exe i po prostu pod¹¿aj za instrukcjami pojawiaj¹cymi siê na ekranie.
-Uruchom setup-c#sb_silber.exe w g³ównym folderze gry aby przeinstalowaæ, odinstalowaæ lub w jakikolwiek inny sposób zmieniæ podane sk³adniki.
+Po rozpakowaniu archiwum, powinien istnieÃ¦ folder "c#sb_silber" oraz plik "setup-c#sb_silber.exe" w gÂ³Ã³wnym folderze gry. Uruchom aplikacjÃª setup-c#sb_silber.exe i po prostu podÂ¹Â¿aj za instrukcjami pojawiajÂ¹cymi siÃª na ekranie.
+Uruchom setup-c#sb_silber.exe w gÂ³Ã³wnym folderze gry aby przeinstalowaÃ¦, odinstalowaÃ¦ lub w jakikolwiek inny sposÃ³b zmieniÃ¦ podane skÂ³adniki.
 
 Mac OS X
-Upewnij siê, ¿e posiadasz wersjê moda napisan¹ pod twój system operacyjny ("OSX-AdalonsBlood-vx.zip"). Po poprawnym rozpakowaniu archiwum powinieneœ posiadaæ folder "c#sb_silber", plik "setup-c#sb_silber" oraz setup-c#sb_silber.command w g³ównym folderze gry. Aby zainstalowaæ, uruchom komendê setup-c#sb_silber.command i pod¹¿aj za instrukcjami pojawiaj¹cymi siê na ekranie.
+Upewnij siÃª, Â¿e posiadasz wersjÃª moda napisanÂ¹ pod twÃ³j system operacyjny ("OSX-AdalonsBlood-vx.zip"). Po poprawnym rozpakowaniu archiwum powinieneÅ“ posiadaÃ¦ folder "c#sb_silber", plik "setup-c#sb_silber" oraz setup-c#sb_silber.command w gÂ³Ã³wnym folderze gry. Aby zainstalowaÃ¦, uruchom komendÃª setup-c#sb_silber.command i podÂ¹Â¿aj za instrukcjami pojawiajÂ¹cymi siÃª na ekranie.
 
 Linux
-Upewnij siê, ¿e posiadasz wersjê moda napisan¹ pod twój system operacyjny ("lin-AdalonsBlood-vx.zip"). Pobierz najnowsz¹ wersjê WeiDU pod Linux z WeiDU.org i skopiuj WeiDU oraz WeInstall do /usr/bin. Nastêpnie, otwórz terminal, cd do folderu w którym zainstalowa³eœ BG2, uruchom 'tolower' i naciœnij Y do obu pytañ. Mo¿esz unikn¹æ uruchamiania drugiej opcji (linux.ini) je¿eli uruchamia³eœ j¹ chocia¿ raz w tym samym folderze. Celem zaoszczêdzenia czasu, nie ma potrzeby uruchamiania pierwszej opcji (lowercasing file names) tylko je¿eli ten mod jest jedyn¹ rzecz¹ któr¹ wypakowa³eœ do folderu z gr¹ od ostatniego razu gdy to robi³eœ. Je¿eli nie jesteœ pewien, uruchomienie tolowera i wybranie obu opcji jest najpewniejszym rozwi¹zaniem.
-uruchom WeInstall setup-c#sb_silber w folderze z gr¹ by zainstalowaæ mod. Nastêpnie uruchom BGMain.exe i zacznij graæ.
+Upewnij siÃª, Â¿e posiadasz wersjÃª moda napisanÂ¹ pod twÃ³j system operacyjny ("lin-AdalonsBlood-vx.zip"). Pobierz najnowszÂ¹ wersjÃª WeiDU pod Linux z WeiDU.org i skopiuj WeiDU oraz WeInstall do /usr/bin. NastÃªpnie, otwÃ³rz terminal, cd do folderu w ktÃ³rym zainstalowaÂ³eÅ“ BG2, uruchom 'tolower' i naciÅ“nij Y do obu pytaÃ±. MoÂ¿esz uniknÂ¹Ã¦ uruchamiania drugiej opcji (linux.ini) jeÂ¿eli uruchamiaÂ³eÅ“ jÂ¹ chociaÂ¿ raz w tym samym folderze. Celem zaoszczÃªdzenia czasu, nie ma potrzeby uruchamiania pierwszej opcji (lowercasing file names) tylko jeÂ¿eli ten mod jest jedynÂ¹ rzeczÂ¹ ktÃ³rÂ¹ wypakowaÂ³eÅ“ do folderu z grÂ¹ od ostatniego razu gdy to robiÂ³eÅ“. JeÂ¿eli nie jesteÅ“ pewien, uruchomienie tolowera i wybranie obu opcji jest najpewniejszym rozwiÂ¹zaniem.
+uruchom WeInstall setup-c#sb_silber w folderze z grÂ¹ by zainstalowaÃ¦ mod. NastÃªpnie uruchom BGMain.exe i zacznij graÃ¦.
 
 
-Je¿eli podczas instalacji natkn¹³eœ siê na jakiekolwiek b³êdy lub problemy, proszê skontaktuj siê ze mn¹ poprzez e-mail lub napisz bug-raport @ Gibberlings Three, albo po niemiecku @ Kerzenburgforum w dziale BG2 Modification.
+JeÂ¿eli podczas instalacji natknÂ¹Â³eÅ“ siÃª na jakiekolwiek bÂ³Ãªdy lub problemy, proszÃª skontaktuj siÃª ze mnÂ¹ poprzez e-mail lub napisz bug-raport @ Gibberlings Three, albo po niemiecku @ Kerzenburgforum w dziale BG2 Modification.
 
-Bezpoœredni link do dyskusji: 
+BezpoÅ“redni link do dyskusji: 
 Kerzenburgforum:
 https://www.baldurs-gate.de/index.php?threads/silberdrachenblut-mod-adalons-blood.38198/
 BeamDog's:
@@ -52,12 +52,12 @@ https://forums.beamdog.com/discussion/25241/adalons-blood-mod-for-bgii
 
 
 
-ZGODNOŒÆ
+ZGODNOÅ’Ã†
 
-Adalon's Blood zosta³ napisany w WeiDU (aby zobaczyæ inne narzêdzia z których korzystano podczas jego tworzenia, patrz poni¿ej), i, jako taki, powinien byæ w pe³ni zgodny z innymi WeiDU modyfikacjami. 
+Adalon's Blood zostaÂ³ napisany w WeiDU (aby zobaczyÃ¦ inne narzÃªdzia z ktÃ³rych korzystano podczas jego tworzenia, patrz poniÂ¿ej), i, jako taki, powinien byÃ¦ w peÂ³ni zgodny z innymi WeiDU modyfikacjami. 
 
 
-Bardzo ciekawi¹ mnie wasze doœwiadczenia zwi¹zane ze zgodnoœci¹ i bardzo proszê o informowanie mnie o innych modach z którymi ³¹czyliœcie Adalon's Blood oraz (przede wszystkim) czy wyst¹pi³y w czasie gry jakiekolwiek problemy.
+Bardzo ciekawiÂ¹ mnie wasze doÅ“wiadczenia zwiÂ¹zane ze zgodnoÅ“ciÂ¹ i bardzo proszÃª o informowanie mnie o innych modach z ktÃ³rymi Â³Â¹czyliÅ“cie Adalon's Blood oraz (przede wszystkim) czy wystÂ¹piÂ³y w czasie gry jakiekolwiek problemy.
 
 
 
@@ -79,7 +79,8 @@ Headbanger: English translation
 Hook71: proof-reading
 jastey: Coding and dialogues
 Le Marquis: French translation
-Radim "Edvin" Klímek: Czech translation
+Lzw104522773: Chinese translation
+Radim "Edvin" KlÃ­mek: Czech translation
 Riojano2002: Spanish translation
 Serpol: Spanish translation
 stnemele: Proof-reading (English)
@@ -109,8 +110,15 @@ Pocket Plane Group			https://www.pocketplane.net/
 
 HISTORY
 
+Version 16
+-added Chinese translation, by Lzw104522773
+-compatibility with Tangled Oak Isle mod added: No NVROL in Adalon's dialogue (UDSILBVER 45); skin armor can also be brought to temple if it was not made with blood from Adalon
+-added possibility to give the human skin tunic to a temple (LEAT22)
+-restructured tp2 to use English as default language
+-update to WeiDU 249
+
 Version 15
--added czech translation, by Radim "Edvin" Klímek
+-added czech translation, by Radim "Edvin" KlÃ­mek
 -added metadata ini to support Project Infinity
 -switched text format handling to HANDLE_CHARSETS + inconv.exe
 -updated readmes / links
@@ -172,7 +180,7 @@ Version 1 - first release
 LEGAL INFORMATION
 
 =============================================================================
-The Adalon's Blood Modification for Baldur's Gate II © 2007 jastey. This mod is not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp. or the Wizards of the Coast. All other trademarks and copyrights are property of their respective owners.
+The Adalon's Blood Modification for Baldur's Gate II Â© 2007 jastey. This mod is not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp. or the Wizards of the Coast. All other trademarks and copyrights are property of their respective owners.
 =============================================================================
 
 =============================================================================

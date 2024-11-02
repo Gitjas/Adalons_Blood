@@ -1,5 +1,5 @@
 
-BACKUP ~weidu_external/C#SB_silber/backup~
+BACKUP ~C#SB_silber/backup~
 //AUTHOR 
 SUPPORT ~https://baldurs-gate.de/index.php?resources/adalons-blood-silberdrachenblutmod.5/~ 
 
@@ -13,56 +13,56 @@ AUTO_TRA ~C#SB_silber/translations/%s~
 
 ALWAYS
  ACTION_DEFINE_ARRAY c#noconvert BEGIN setup END
-  ACTION_DEFINE_ARRAY c#reload BEGIN silberdrachenblut END
 
   LAF HANDLE_CHARSETS
     INT_VAR
       infer_charsets = 1
     STR_VAR
       default_language = ~english~
-      tra_path = EVAL ~c#sb_silber\translations\~
+      tra_path = EVAL ~c#sb_silber/translations/~
       noconvert_array = c#noconvert
       reload_array = c#reload
   END
+
+  LOAD_TRA ~C#SB_silber/translations/english/silberdrachenblut.tra~
+  LOAD_TRA ~C#SB_silber/translations/%LANGUAGE%/silberdrachenblut.tra~
 END
 
 
 
 LANGUAGE ~English~  ~english~
          ~C#SB_silber/translations/english/setup.tra~
-         ~C#SB_silber/translations/english/silberdrachenblut.tra~
          
 LANGUAGE ~Deutsch~ ~deutsch~
+         ~C#SB_silber/translations/english/setup.tra~
          ~C#SB_silber/translations/deutsch/setup.tra~ 
-         ~C#SB_silber/translations/deutsch/silberdrachenblut.tra~
 
 LANGUAGE ~Francais~  ~french~
+         ~C#SB_silber/translations/english/setup.tra~
          ~C#SB_silber/translations/french/setup.tra~
-         ~C#SB_silber/translations/french/silberdrachenblut.tra~
 
 LANGUAGE ~Italiano - by Stoneangel~  ~italian~
+         ~C#SB_silber/translations/english/setup.tra~
          ~C#SB_silber/translations/italian/setup.tra~
-         ~C#SB_silber/translations/italian/silberdrachenblut.tra~
 
 LANGUAGE ~Castellano (Traducido por Clan REO)~  ~spanish~
+         ~C#SB_silber/translations/english/setup.tra~
          ~C#SB_silber/translations/spanish/setup.tra~
-         ~C#SB_silber/translations/spanish/silberdrachenblut.tra~
 
 LANGUAGE ~Russian (Austin & AERIE Team)~  ~russian~
          ~C#SB_silber/translations/english/setup.tra~
-         ~C#SB_silber/translations/russian/silberdrachenblut.tra~
 
 LANGUAGE ~Polski~  ~polish~
+         ~C#SB_silber/translations/english/setup.tra~
          ~C#SB_silber/translations/polish/setup.tra~
-         ~C#SB_silber/translations/polish/silberdrachenblut.tra~
 
 LANGUAGE ~Czech (by Edvin)~  ~czech~
+         ~C#SB_silber/translations/english/setup.tra~
          ~C#SB_silber/translations/czech/setup.tra~
-         ~C#SB_silber/translations/czech/silberdrachenblut.tra~
 
 LANGUAGE ~Chinese~  ~schinese~
+         ~C#SB_silber/translations/english/setup.tra~
          ~C#SB_silber/translations/schinese/setup.tra~
-         ~C#SB_silber/translations/schinese/silberdrachenblut.tra~
 
 BEGIN @183
 DESIGNATED 0

@@ -1,48 +1,48 @@
         				Le sang d'Adalon
 				Modification pour Baldur's Gate II
-                     de Gandalf the white ; programmé par jastey 
+                     de Gandalf the white ; programmÃ© par jastey 
 
 
-Le mod "le sang d'Adalon" permet au personnage de demander un peu de son sang à Adalon sans avoir à la tuer, pour achever la quête des meurtres de "l'écorcheur" dans le district du pont. Ce mod est principalement destiné à des personnages d'alignement bon qui souhaitent finir cette quête de façon bénéfique : découvrir et éliminer les clients de l'écorcheur, et purifier l'armure dans un temple.
-Les personnages d'alignement mauvais de charisme supérieur ou égal à 18 peuvent néanmoins tenter de convaincre Adalon de sacrifier un peu de son sang. Ils ont 25 % de chances d'arriver à duper le dragon d'argent.
+Le mod "le sang d'Adalon" permet au personnage de demander un peu de son sang Ã  Adalon sans avoir Ã  la tuer, pour achever la quÃªte des meurtres de "l'Ã©corcheur" dans le district du pont. Ce mod est principalement destinÃ© Ã  des personnages d'alignement bon qui souhaitent finir cette quÃªte de faÃ§on bÃ©nÃ©fique : dÃ©couvrir et Ã©liminer les clients de l'Ã©corcheur, et purifier l'armure dans un temple.
+Les personnages d'alignement mauvais de charisme supÃ©rieur ou Ã©gal Ã  18 peuvent nÃ©anmoins tenter de convaincre Adalon de sacrifier un peu de son sang. Ils ont 25 % de chances d'arriver Ã  duper le dragon d'argent.
 
-Il n'est pas nécessaire de commencer une nouvelle partie pour jouer ce mod. Ce mod doit cependant être installé *avant* que les aventuriers n'aient ramené ses oeufs à Adalon.
-Du contenu supplémentaire est accessible si ce mod est installé avant la première rencontre avec Fael "l'écorcheur" dans les collines d'Umar.
-Si ce mod est installé avant que les aventuriers ne pénètrent pour la première fois dans la cité des elfes noirs, il rajoute une nouvelle option pour vaincre l'aboleth (au lieu d'un combat).
+Il n'est pas nÃ©cessaire de commencer une nouvelle partie pour jouer ce mod. Ce mod doit cependant Ãªtre installÃ© *avant* que les aventuriers n'aient ramenÃ© ses oeufs Ã  Adalon.
+Du contenu supplÃ©mentaire est accessible si ce mod est installÃ© avant la premiÃ¨re rencontre avec Fael "l'Ã©corcheur" dans les collines d'Umar.
+Si ce mod est installÃ© avant que les aventuriers ne pÃ©nÃ¨trent pour la premiÃ¨re fois dans la citÃ© des elfes noirs, il rajoute une nouvelle option pour vaincre l'aboleth (au lieu d'un combat).
 
 
 CONTENU
 
-+ Une nouvelle option de dialogue avec Fael qui permet à un personnage d'alignement bon d'accepter la quête du sang du dragon d'argent sans avoir à se comporter de manière maléfique.
-+ Une option de dialogue avec Adalon a été rajoutée, qui permet au personnage de lui demander un peu de son sang.
-+ Combat avec l'aboleth à Usth Natha (après avoir ramené ses oeufs à Adalon).
++ Une nouvelle option de dialogue avec Fael qui permet Ã  un personnage d'alignement bon d'accepter la quÃªte du sang du dragon d'argent sans avoir Ã  se comporter de maniÃ¨re malÃ©fique.
++ Une option de dialogue avec Adalon a Ã©tÃ© rajoutÃ©e, qui permet au personnage de lui demander un peu de son sang.
++ Combat avec l'aboleth Ã  Usth Natha (aprÃ¨s avoir ramenÃ© ses oeufs Ã  Adalon).
 + Rajout d'une option permettant de donner l'armure de peau humaine dans un temple.
 
 
 INSTALLATION
 
-Général (Windows, Mac OS X, et Linux)
-Veillez à faire une sauvegarde de votre fichier dialog.tlk (et dialogF.tlk, s'il existe) en cas de problème. Décompressez le contenu de l'archive du mod dans le répertoire principal du jeu.
+GÃ©nÃ©ral (Windows, Mac OS X, et Linux)
+Veillez Ã  faire une sauvegarde de votre fichier dialog.tlk (et dialogF.tlk, s'il existe) en cas de problÃ¨me. DÃ©compressez le contenu de l'archive du mod dans le rÃ©pertoire principal du jeu.
 
-Si vous avez déjà installé ce mod, désinstallez-le avant d'extraire la nouvelle version. Pour cela, désinstallez tous les composants précédemment installés et effacez le répertoire du mod et les exécutables.
+Si vous avez dÃ©jÃ  installÃ© ce mod, dÃ©sinstallez-le avant d'extraire la nouvelle version. Pour cela, dÃ©sinstallez tous les composants prÃ©cÃ©demment installÃ©s et effacez le rÃ©pertoire du mod et les exÃ©cutables.
 
-Note : quand vous installez ou désinstallez, ne fermez pas la fenêtre DOS en cliquant sur le bouton de fermeture (X) ! Au lieu de cela, appuyez sur la touche Entrée lorsque le programme vous le demande.
+Note : quand vous installez ou dÃ©sinstallez, ne fermez pas la fenÃªtre DOS en cliquant sur le bouton de fermeture (X) ! Au lieu de cela, appuyez sur la touche EntrÃ©e lorsque le programme vous le demande.
 
 Pour terminer l'installation du mod, suivez ces instructions :
 
 Windows
-Après avoir extrait le mod avec succès, un répertoire "c#sb_silber" ainsi qu'un fichier "setup-c#sb_silber.exe" devraient se trouver dans le répertoire principal du jeu. Pour installer le mod, double-cliquez sur setup-c#sb_silber.exe et suivez les instructions apparaissant à l'écran. Pour désinstaller, réinstaller ou changer certains composants, lancer à nouveau setup-c#sb_silber.exe (dans votre répertoire principal).
+AprÃ¨s avoir extrait le mod avec succÃ¨s, un rÃ©pertoire "c#sb_silber" ainsi qu'un fichier "setup-c#sb_silber.exe" devraient se trouver dans le rÃ©pertoire principal du jeu. Pour installer le mod, double-cliquez sur setup-c#sb_silber.exe et suivez les instructions apparaissant Ã  l'Ã©cran. Pour dÃ©sinstaller, rÃ©installer ou changer certains composants, lancer Ã  nouveau setup-c#sb_silber.exe (dans votre rÃ©pertoire principal).
 
 Mac OS X
-Vérifiez que vous possédez bien la version Mac OS X du mod (nommée "OSX-AdalonsBlood-vx.zip"). Si l'extraction s'est bien déroulée, un répertoire "c#sb_silber", un fichier "setup-c#sb_silber" et setupc#sb_silber.command devraient être apparus dans le répertoire principal du jeu. Pour installer le mod, double-cliquez sur setup-c#sb_silber.command et suivez les instructions apparaissant à l'écran.
+VÃ©rifiez que vous possÃ©dez bien la version Mac OS X du mod (nommÃ©e "OSX-AdalonsBlood-vx.zip"). Si l'extraction s'est bien dÃ©roulÃ©e, un rÃ©pertoire "c#sb_silber", un fichier "setup-c#sb_silber" et setupc#sb_silber.command devraient Ãªtre apparus dans le rÃ©pertoire principal du jeu. Pour installer le mod, double-cliquez sur setup-c#sb_silber.command et suivez les instructions apparaissant Ã  l'Ã©cran.
 
 Linux
-Vérifiez que vous possédez bien la version Linux du mod (nommée "lin-AdalonsBlood-vx.zip").
-Téléchargez la dernière version de WeiDU pour Linux (du site WeiDU.org), puis copiez WeiDU et WeInstall dans usr/bin. Après cela, ouvrez une console, placez-vous dans le répertoire d'installation de BG2, lancez 'tolower' et répondez oui (Y) aux deux demandes. Vous n'avez pas besoin d'utiliser la seconde option (linux.ini) si vous l'avez déjà lancée une fois dans ce même répertoire. Pour gagner du temps l'archive a déjà été tolower-isée, il n'y a donc pas non plus besoin de lancer la première option (mettre les noms de fichiers en minuscules) si vous n'avez extrait que ce mod, depuis la dernière fois que vous avez passé des noms de fichiers en minuscules. Si vous n'en êtes pas certain, il est préférable de lancer tolower et d'accepter les deux demandes.
-Lancez WeInstall setup-c#sb_silber dans le répertoire du jeu pour installer le mod. Lancez ensuite wine BGMain.exe et vous pouvez commencer à jouer.
+VÃ©rifiez que vous possÃ©dez bien la version Linux du mod (nommÃ©e "lin-AdalonsBlood-vx.zip").
+TÃ©lÃ©chargez la derniÃ¨re version de WeiDU pour Linux (du site WeiDU.org), puis copiez WeiDU et WeInstall dans usr/bin. AprÃ¨s cela, ouvrez une console, placez-vous dans le rÃ©pertoire d'installation de BG2, lancez 'tolower' et rÃ©pondez oui (Y) aux deux demandes. Vous n'avez pas besoin d'utiliser la seconde option (linux.ini) si vous l'avez dÃ©jÃ  lancÃ©e une fois dans ce mÃªme rÃ©pertoire. Pour gagner du temps l'archive a dÃ©jÃ  Ã©tÃ© tolower-isÃ©e, il n'y a donc pas non plus besoin de lancer la premiÃ¨re option (mettre les noms de fichiers en minuscules) si vous n'avez extrait que ce mod, depuis la derniÃ¨re fois que vous avez passÃ© des noms de fichiers en minuscules. Si vous n'en Ãªtes pas certain, il est prÃ©fÃ©rable de lancer tolower et d'accepter les deux demandes.
+Lancez WeInstall setup-c#sb_silber dans le rÃ©pertoire du jeu pour installer le mod. Lancez ensuite wine BGMain.exe et vous pouvez commencer Ã  jouer.
 
 
-Si vous rencontrez des problèmes d'installation ou des bugs, contactez-moi via l'adresse e-mail citée plus haut ou bien postez votre rapport de bugs sur le forum de Gibberlings Three, ou en langue allemande sur le forum de Kerzenburgforum, dans le forum "Modifikationen - Releases".
+Si vous rencontrez des problÃ¨mes d'installation ou des bugs, contactez-moi via l'adresse e-mail citÃ©e plus haut ou bien postez votre rapport de bugs sur le forum de Gibberlings Three, ou en langue allemande sur le forum de Kerzenburgforum, dans le forum "Modifikationen - Releases".
 
 Liens directs vers le sujet correspondant du forum : 
 Kerzenburgforum:
@@ -53,9 +53,9 @@ https://forums.beamdog.com/discussion/25241/adalons-blood-mod-for-bgii
 
 COMPATIBILITE
 
-ce mod a été programmé en utilisant WeiDU (voir ci-dessous pour les autres outils utilisés) et devrait donc être compatible avec les autres mods WeiDU.
+ce mod a Ã©tÃ© programmÃ© en utilisant WeiDU (voir ci-dessous pour les autres outils utilisÃ©s) et devrait donc Ãªtre compatible avec les autres mods WeiDU.
 
-Je suis intéressée par des retours au sujet de la compatibilité, donc s'il vous plait faites-moi savoir avec quels autres mods vous avez avez joué à celui-ci, et particulièrement si vous avez rencontré des problèmes.
+Je suis intÃ©ressÃ©e par des retours au sujet de la compatibilitÃ©, donc s'il vous plait faites-moi savoir avec quels autres mods vous avez avez jouÃ© Ã  celui-ci, et particuliÃ¨rement si vous avez rencontrÃ© des problÃ¨mes.
 
 
 
@@ -77,7 +77,8 @@ Headbanger: English translation
 Hook71: proof-reading
 jastey: Coding and dialogues
 Le Marquis: French translation
-Radim "Edvin" Klímek: Czech translation
+Lzw104522773: Chinese translation
+Radim "Edvin" KlÃ­mek: Czech translation
 Riojano2002: Spanish translation
 Serpol: Spanish translation
 stnemele: Proof-reading (English)
@@ -109,8 +110,15 @@ Pocket Plane Group			https://www.pocketplane.net/
 
 HISTORY
 
+Version 16
+-added Chinese translation, by Lzw104522773
+-compatibility with Tangled Oak Isle mod added: No NVROL in Adalon's dialogue (UDSILBVER 45); skin armor can also be brought to temple if it was not made with blood from Adalon
+-added possibility to give the human skin tunic to a temple (LEAT22)
+-restructured tp2 to use English as default language
+-update to WeiDU 249
+
 Version 15
--added czech translation, by Radim "Edvin" Klímek
+-added czech translation, by Radim "Edvin" KlÃ­mek
 -added metadata ini to support Project Infinity
 -switched text format handling to HANDLE_CHARSETS + inconv.exe
 -updated readmes / links
@@ -172,7 +180,7 @@ Version 1 - first release
 LEGAL INFORMATION
 
 =============================================================================
-The Adalon's Blood Modification for Baldur's Gate II © 2007 jastey. This mod is not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp. or the Wizards of the Coast. All other trademarks and copyrights are property of their respective owners.
+The Adalon's Blood Modification for Baldur's Gate II Â© 2007 jastey. This mod is not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp. or the Wizards of the Coast. All other trademarks and copyrights are property of their respective owners.
 =============================================================================
 
 =============================================================================
