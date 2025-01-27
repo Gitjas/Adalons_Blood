@@ -109,6 +109,9 @@ Pocket Plane Group			https://www.pocketplane.net/
 
 
 HISTORY
+Version 17
+-Chinese translation: update setup.tra & silberdrachenblut.tra, by Lzw104522773
+-German: typo corrections, by Ychap
 
 Version 16
 -added Chinese translation, by Lzw104522773
