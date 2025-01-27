@@ -3,7 +3,7 @@ BACKUP ~C#SB_silber/backup~
 //AUTHOR 
 SUPPORT ~https://baldurs-gate.de/index.php?resources/adalons-blood-silberdrachenblutmod.5/~ 
 
-VERSION ~16~ //241102
+VERSION ~17~ 
 
 README ~C#SB_silber/readme.sb_silver.%LANGUAGE%.html~
 ~C#SB_silber/readme.%LANGUAGE%.txt~ ~C#SB_silber/readme.sb_silver.english.html~
