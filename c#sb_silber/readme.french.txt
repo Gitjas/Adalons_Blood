@@ -111,6 +111,7 @@ Pocket Plane Group			https://www.pocketplane.net/
 HISTORY
 Version 17
 -Chinese translation: update setup.tra & silberdrachenblut.tra, by Lzw104522773
+-Russian version completed with missing line in silberdrachenblut.tra, by yota13
 -German: typo corrections, by Ychap
 
 Version 16
