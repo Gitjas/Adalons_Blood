@@ -110,6 +110,10 @@ Pocket Plane Group			https://www.pocketplane.net/
 
 HISTORY
 
+Version 17.2
+-French version completed with missing line @80 in silberdrachenblut.tra, by Trouveur80
+Still mssing: Czech, Italian, Polish
+
 Version 17.1
 -Spanish version completed with missing line @80 in silberdrachenblut.tra, by alaisFcZ
 Still mssing: Czech, French, Italian, Polish
