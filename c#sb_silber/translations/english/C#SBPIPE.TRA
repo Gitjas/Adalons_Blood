@@ -1,0 +1,5 @@
+@0    = ~You spot a branch of piping that seems to provide life support to the tank of the Aboleth.~
+@1    = ~You spot a branch of piping that seems to provide life support to the tank of the Aboleth. You could destroy the tank connection, if you want.~
+@2    = ~You have destroyed the pipes' connection to the tank. The piping no longer provides life support to the tank of the Aboleth.~
+@3    = ~The piping no longer nourishes the tank of the Aboleth.~
+@4    = ~You spot a branch of piping that seems to provide life support to the tank of the Aboleth, but you are too far away to do anything with it.~
