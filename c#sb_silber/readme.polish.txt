@@ -111,6 +111,11 @@ Pocket Plane Group			https://www.pocketplane.net/
 
 HISTORY
 
+Version 17.3
+-Czech version completed with 3 missing lines, by Edvin
+-Polish version completed with 3 missing lines, by Dziadekkk
+Still missing: Italian
+
 Version 17.2
 -French version completed with missing line @80 in silberdrachenblut.tra, by Trouveur80
 Still mssing: Czech, Italian, Polish
